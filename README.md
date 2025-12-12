@@ -311,9 +311,18 @@ devops:
 
 <div align="center">
 <a href="https://github.com/mukeshjena?tab=achievements">
-  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&row=1&column=7" alt="GitHub Trophies" width="100%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" width="100%"/>
 </a>
 </div>
+
+<!-- Alternative Trophy Display (if above doesn't work) -->
+<!--
+<div align="center">
+<a href="https://github.com/mukeshjena?tab=achievements">
+  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=darkhub&row=1&column=7" alt="GitHub Trophies" width="100%"/>
+</a>
+</div>
+-->
 
 </div>
 
