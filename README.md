@@ -11,11 +11,13 @@
 <br/>
 
 <!-- Dynamic Snake Animation -->
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
+</div>
 
 <br/>
 
@@ -260,36 +262,44 @@ devops:
 ## 📊 GitHub Analytics - Live Stats
 
 <!-- Dynamic GitHub Stats -->
+<div align="center">
 <a href="https://github.com/mukeshjena">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=mukeshjena&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&ring_color=58A6FF"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mukeshjena&layout=compact&langs_count=12&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10&card_width=320"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=mukeshjena&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&ring_color=58A6FF" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mukeshjena&layout=compact&langs_count=12&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10&card_width=320" alt="Top Languages"/>
 </a>
+</div>
 
 <br/><br/>
 
 <!-- Dynamic Streak Stats -->
+<div align="center">
 <a href="https://github.com/mukeshjena">
-  <img src="https://streak-stats.demolab.com/?user=mukeshjena&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=10" alt="GitHub Streak Stats" width="70%"/>
+  <img src="https://streak-stats.demolab.com/?user=mukeshjena&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=10" alt="GitHub Streak Stats"/>
 </a>
+</div>
 
 <br/><br/>
 
 <!-- Dynamic Activity Graph -->
+<div align="center">
 <a href="https://github.com/mukeshjena">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mukeshjena&custom_title=Mukesh's%20Contribution%20Graph&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=58A6FF&area_color=1F6FEB&title_color=58A6FF&area=true&hide_border=true&radius=10" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mukeshjena&custom_title=Mukesh's%20Contribution%20Graph&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=58A6FF&area_color=1F6FEB&title_color=58A6FF&area=true&hide_border=true&radius=10" alt="GitHub Activity Graph"/>
 </a>
+</div>
 
 <br/><br/>
 
 <!-- Detailed Contribution Stats -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mukeshjena&theme=github_dark" width="100%"/>
+<div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mukeshjena&theme=github_dark" alt="Profile Details" width="100%"/>
 
 <br/>
 
 <!-- Additional Stats Cards -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mukeshjena&theme=github_dark" width="32.5%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mukeshjena&theme=github_dark" width="32.5%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mukeshjena&theme=github_dark&utcOffset=5.5" width="32.5%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mukeshjena&theme=github_dark" alt="Repos per Language" width="32.5%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mukeshjena&theme=github_dark" alt="Most Commit Language" width="32.5%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mukeshjena&theme=github_dark&utcOffset=5.5" alt="Productive Time" width="32.5%"/>
+</div>
 
 </div>
 
@@ -309,7 +319,7 @@ devops:
 
 <div align="center">
 
-## 🌟 Featured Projects - Auto-Updated
+## 🌟 Featured Projects - Full-Stack Development Portfolio
 
 </div>
 
@@ -318,8 +328,122 @@ devops:
 <tr>
 <td width="50%" valign="top">
 
-### 🎬 Filmify - Movie Discovery Platform
+### 🏗️ Clean Architecture CQRS MediatR
 <div align="center">  
+<a href="https://github.com/mukeshjena/Clean-Architecture-CQRS-MediatR">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=Clean-Architecture-CQRS-MediatR&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+</a>
+</div>
+
+**Stack:** .NET Core • CQRS • MediatR • Clean Architecture  
+**Features:** Enterprise patterns, separation of concerns  
+**Highlights:** Production-ready API architecture, best practices
+
+<p align="center">
+<a href="https://github.com/mukeshjena/Clean-Architecture-CQRS-MediatR">
+<img src="https://img.shields.io/github/stars/mukeshjena/Clean-Architecture-CQRS-MediatR?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/Clean-Architecture-CQRS-MediatR?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+</a>
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 📦 Lucid Alerts - NPM Package
+<div align="center">
+<a href="https://github.com/mukeshjena/lucid-alerts">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=lucid-alerts&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+</a>
+</div>
+
+**Stack:** JavaScript • NPM • Open Source  
+**Features:** Modern alert library, customizable notifications  
+**Highlights:** Lightweight, alternative to SweetAlert2
+
+<p align="center">
+<a href="https://github.com/mukeshjena/lucid-alerts">
+<img src="https://img.shields.io/github/stars/mukeshjena/lucid-alerts?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/lucid-alerts?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+</a>
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ CloudAMQP Inter-Network Communication
+<div align="center">
+<a href="https://github.com/mukeshjena/CloudAMQP-Inter-Network-Communication">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=CloudAMQP-Inter-Network-Communication&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+</a>
+</div>
+
+**Stack:** .NET Core • CloudAMQP • Message Queue • Cloud Automation  
+**Features:** Inter-service communication, cloud messaging  
+**Highlights:** Enterprise cloud automation, scalable architecture
+
+<p align="center">
+<a href="https://github.com/mukeshjena/CloudAMQP-Inter-Network-Communication">
+<img src="https://img.shields.io/github/stars/mukeshjena/CloudAMQP-Inter-Network-Communication?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/CloudAMQP-Inter-Network-Communication?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+</a>
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🚀 Email Service API - Full-Stack
+<div align="center">
+<a href="https://github.com/mukeshjena/email-service-api">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=email-service-api&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+</a>
+</div>
+
+**Stack:** TypeScript • Node.js • REST API • Full-Stack  
+**Features:** Email service, API endpoints, microservices  
+**Highlights:** Production-ready service, scalable design
+
+<p align="center">
+<a href="https://github.com/mukeshjena/email-service-api">
+<img src="https://img.shields.io/github/stars/mukeshjena/email-service-api?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/email-service-api?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+</a>
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🎨 Groq AI Chat Application
+<div align="center">
+<a href="https://github.com/mukeshjena/groq-ai-chat-application">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=groq-ai-chat-application&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+</a>
+</div>
+
+**Stack:** TypeScript • React • AI/ML • Full-Stack  
+**Features:** AI chat interface, real-time responses  
+**Highlights:** Modern React app, AI integration
+
+<p align="center">
+<a href="https://github.com/mukeshjena/groq-ai-chat-application">
+<img src="https://img.shields.io/github/stars/mukeshjena/groq-ai-chat-application?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/groq-ai-chat-application?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+</a>
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🎬 Filmify - Movie Discovery Platform
+<div align="center">
 <a href="https://github.com/mukeshjena/Filmify">
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=Filmify&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
@@ -333,30 +457,6 @@ devops:
 <a href="https://github.com/mukeshjena/Filmify">
 <img src="https://img.shields.io/github/stars/mukeshjena/Filmify?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
 <img src="https://img.shields.io/github/forks/mukeshjena/Filmify?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/issues/mukeshjena/Filmify?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-</a>
-</p>
-
-</td>
-
-<td width="50%" valign="top">
-
-### 📝 NoteMate - Smart Note Taking
-<div align="center">
-<a href="https://github.com/mukeshjena/NoteMate">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=NoteMate&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
-</a>
-</div>
-
-**Stack:** Flutter • SQLite • CRUD Operations  
-**Features:** Create, edit, delete notes with persistence  
-**Highlights:** Local database, offline support
-
-<p align="center">
-<a href="https://github.com/mukeshjena/NoteMate">
-<img src="https://img.shields.io/github/stars/mukeshjena/NoteMate?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/NoteMate?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/last-commit/mukeshjena/NoteMate?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
 </a>
 </p>
 
@@ -366,21 +466,21 @@ devops:
 <tr>
 <td width="50%" valign="top">
 
-### 📰 News App - Real-Time Aggregator
+### 🛡️ Void Browser - Privacy Browser
 <div align="center">
-<a href="https://github.com/mukeshjena/news_app_flutter">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=news_app_flutter&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+<a href="https://github.com/mukeshjena/void-browser">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=void-browser&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Stack:** Flutter • News API • HTTP • JSON  
-**Features:** Real-time news, categories, search functionality  
-**Highlights:** Multi-source aggregation, responsive UI
+**Stack:** Flutter • Clean Architecture • Riverpod • Privacy  
+**Features:** Ad-blocker, privacy-focused, lightweight  
+**Highlights:** Production mobile app, clean architecture
 
 <p align="center">
-<a href="https://github.com/mukeshjena/news_app_flutter">
-<img src="https://img.shields.io/github/stars/mukeshjena/news_app_flutter?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/news_app_flutter?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<a href="https://github.com/mukeshjena/void-browser">
+<img src="https://img.shields.io/github/stars/mukeshjena/void-browser?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/void-browser?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
 </a>
 </p>
 
@@ -388,67 +488,21 @@ devops:
 
 <td width="50%" valign="top">
 
-### 🤖 ChatGPT Integration App
+### 🏢 Cafeteria Management System
 <div align="center">
-<a href="https://github.com/mukeshjena/chat_gpt_app_flutter">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=chat_gpt_app_flutter&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+<a href="https://github.com/mukeshjena/Cafeteria_Management_System">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=Cafeteria_Management_System&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Stack:** Flutter • OpenAI API • AI/ML  
-**Features:** AI conversations, context management  
-**Highlights:** Real-time responses, conversation history
+**Stack:** JavaScript • Full-Stack • Web Application  
+**Features:** Management system, CRUD operations  
+**Highlights:** Complete full-stack solution
 
 <p align="center">
-<a href="https://github.com/mukeshjena/chat_gpt_app_flutter">
-<img src="https://img.shields.io/github/stars/mukeshjena/chat_gpt_app_flutter?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/chat_gpt_app_flutter?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-</a>
-</p>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### ⚖️ BMI Calculator
-<div align="center">
-<a href="https://github.com/mukeshjena/bmi_calculator">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=bmi_calculator&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
-</a>
-</div>
-
-**Stack:** Flutter • Dart • Material Design  
-**Features:** BMI calculation, health insights  
-**Highlights:** Beautiful UI, instant calculations
-
-<p align="center">
-<a href="https://github.com/mukeshjena/bmi_calculator">
-<img src="https://img.shields.io/github/stars/mukeshjena/bmi_calculator?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/bmi_calculator?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-</a>
-</p>
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🎮 Tic Tac Toe Game
-<div align="center">
-<a href="https://github.com/mukeshjena/tic_tac_toe">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=tic_tac_toe&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
-</a>
-</div>
-
-**Stack:** Flutter • Game Logic • Animations  
-**Features:** 2-player mode, score tracking  
-**Highlights:** Smooth animations, intuitive UI
-
-<p align="center">
-<a href="https://github.com/mukeshjena/tic_tac_toe">
-<img src="https://img.shields.io/github/stars/mukeshjena/tic_tac_toe?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/tic_tac_toe?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<a href="https://github.com/mukeshjena/Cafeteria_Management_System">
+<img src="https://img.shields.io/github/stars/mukeshjena/Cafeteria_Management_System?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/Cafeteria_Management_System?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
 </a>
 </p>
 
@@ -463,7 +517,9 @@ devops:
 
 ## 📈 Contribution Metrics - Real-Time
 
-<img src="https://github-contributor-stats.vercel.app/api?username=mukeshjena&limit=5&theme=react&combine_all_yearly_contributions=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10" width="70%"/>
+<div align="center">
+<img src="https://github-contributor-stats.vercel.app/api?username=mukeshjena&limit=5&theme=react&combine_all_yearly_contributions=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10" alt="Contribution Stats" width="100%"/>
+</div>
 
 </div>
 
@@ -740,6 +796,6 @@ open_source:
 
 ### Built with passion | Powered by innovation | Driven by excellence
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=0,2,3,5,6&section=footer&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=0,2,3,5,6&section=footer&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=6AD3F7" width="100%"/>
 
-</div
+</div>
