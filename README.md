@@ -524,7 +524,7 @@ devops:
 <td width="50%" valign="top">
 
 #### 🔥 Contribution Heatmap
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mukeshjena&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=10" alt="Contribution Heatmap" width="100%"/>
+<img src="https://streak-stats.demolab.com/?user=mukeshjena&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=10" alt="Contribution Heatmap" width="100%"/>
 
 </td>
 <td width="50%" valign="top">
