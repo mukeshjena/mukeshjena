@@ -1036,9 +1036,9 @@ gantt
 
 ## 📚 Latest Activity - Auto-Updated
 
-<!--START_SECTION:activity-->
+<!--RECENT_ACTIVITY:start-->
 <!-- GitHub activity will be automatically updated here -->
-<!--END_SECTION:activity-->
+<!--RECENT_ACTIVITY:end-->
 
 </div>
 

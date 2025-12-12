@@ -14,15 +14,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Update README with recent activity
         uses: Readme-Workflows/recent-activity@v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MESSAGE: "⚡ Update README with recent activity"
-          MAX_LINES: 10
-          COMMITTER_USERNAME: github-actions[bot]
-          COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
+          GH_USERNAME: mukeshjena
