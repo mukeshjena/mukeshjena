@@ -1237,6 +1237,6 @@ Complete solutions from frontend to backend
 
 ### Built with passion | Powered by innovation | Driven by excellence
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=6,0&section=footer&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=58A6FF&fontColor=fff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=6,0&section=footer&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=58A6FF" width="100%"/>
 
 </div>
