@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Dynamic Wave Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:13:17:23,100:26:26:46&text=MUKESH%20JENA&fontSize=80&fontColor=fff&fontAlignY=35&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=58A6FF" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0D1117&text=MUKESH%20JENA&fontSize=80&fontColor=fff&fontAlignY=35&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=58A6FF" width="100%"/>
 
 <!-- Dynamic Typing Animation -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=200&lines=%F0%9F%9A%80+Full-Stack+Software+Developer;%E2%98%81%EF%B8%8F+.NET+APIs+%7C+React+%7C+Flutter+%7C+Cloud+Automation;%F0%9F%93%A6+Building+Scalable+Solutions+%26+NPM+Packages;%F0%9F%8E%A8+Crafting+Enterprise-Grade+Applications;%E2%9C%A8+Passionate+Learner+%7C+Ready+to+Make+a+Mark" alt="Typing SVG" />
@@ -1237,6 +1237,6 @@ Complete solutions from frontend to backend
 
 ### Built with passion | Powered by innovation | Driven by excellence
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:13:17:23,100:26:26:46&section=footer&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=58A6FF" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0D1117&section=footer&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=58A6FF" width="100%"/>
 
 </div>
