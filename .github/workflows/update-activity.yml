@@ -27,77 +27,70 @@ jobs:
             const fs = require('fs');
             const username = process.env.GH_USERNAME;
             
-            // Fetch public events
-            let events = [];
-            try {
-              const response = await github.rest.activity.listPublicEventsForUser({
-                username: username,
-                per_page: 50
-              });
-              events = response.data || [];
-            } catch (error) {
-              console.log('Error fetching events:', error.message);
-            }
-            
             const activityLines = [];
             let count = 0;
             const maxLines = 10;
             const seenRepos = new Set();
             
-            // Process PushEvents
-            for (const event of events) {
-              if (count >= maxLines) break;
+            try {
+              // Fetch user's repositories
+              const reposResponse = await github.rest.repos.listForUser({
+                username: username,
+                sort: 'updated',
+                per_page: 10,
+                type: 'owner'
+              });
               
-              if (event.type === 'PushEvent') {
-                const repo = event.repo.name;
-                const repoKey = `${repo}-push`;
+              const repos = reposResponse.data || [];
+              
+              // Fetch recent commits from each repository
+              for (const repo of repos) {
+                if (count >= maxLines) break;
                 
-                // Avoid duplicates
-                if (seenRepos.has(repoKey)) continue;
-                seenRepos.add(repoKey);
-                
-                const commits = event.payload.commits || [];
-                if (commits.length > 0) {
-                  const commitMessages = commits
-                    .slice(0, 2)
-                    .map(c => {
-                      const msg = c.message || '';
-                      return msg.split('\n')[0].substring(0, 60);
-                    })
-                    .filter(m => m)
-                    .join(', ');
+                try {
+                  const commitsResponse = await github.rest.repos.listCommits({
+                    owner: username,
+                    repo: repo.name,
+                    author: username,
+                    per_page: 1
+                  });
                   
-                  const repoUrl = `https://github.com/${repo}`;
-                  const commitCount = commits.length;
-                  
-                  activityLines.push(
-                    `${count + 1}. ⬆️ Pushed ${commitCount} commit(s) to [${repo}](${repoUrl})${commitMessages ? '<br>   ' + commitMessages + (commitMessages.length > 60 ? '...' : '') : ''}`
-                  );
-                  count++;
+                  if (commitsResponse.data && commitsResponse.data.length > 0) {
+                    const commit = commitsResponse.data[0];
+                    const commitMessage = commit.commit.message.split('\n')[0].substring(0, 80);
+                    const repoUrl = `https://github.com/${username}/${repo.name}`;
+                    const commitUrl = commit.html_url;
+                    const date = new Date(commit.commit.author.date);
+                    const timeAgo = getTimeAgo(date);
+                    
+                    if (!seenRepos.has(repo.name)) {
+                      activityLines.push(
+                        `${count + 1}. ⬆️ Pushed commit to [${repo.name}](${repoUrl})<br>   ${commitMessage}${commitMessage.length > 80 ? '...' : ''} (${timeAgo})`
+                      );
+                      seenRepos.add(repo.name);
+                      count++;
+                    }
+                  }
+                } catch (error) {
+                  // Skip repos with no access or errors
+                  continue;
                 }
-              } else if (event.type === 'PullRequestEvent' && !seenRepos.has(`${event.repo.name}-pr`)) {
-                const repo = event.repo.name;
-                seenRepos.add(`${repo}-pr`);
-                const action = event.payload.action;
-                const prTitle = event.payload.pull_request?.title || 'Pull Request';
-                const repoUrl = `https://github.com/${repo}`;
-                
-                activityLines.push(
-                  `${count + 1}. 🔀 ${action.charAt(0).toUpperCase() + action.slice(1)} pull request in [${repo}](${repoUrl})<br>   ${prTitle.substring(0, 80)}${prTitle.length > 80 ? '...' : ''}`
-                );
-                count++;
-              } else if (event.type === 'IssuesEvent' && !seenRepos.has(`${event.repo.name}-issue`)) {
-                const repo = event.repo.name;
-                seenRepos.add(`${repo}-issue`);
-                const action = event.payload.action;
-                const issueTitle = event.payload.issue?.title || 'Issue';
-                const repoUrl = `https://github.com/${repo}`;
-                
-                activityLines.push(
-                  `${count + 1}. 🐛 ${action.charAt(0).toUpperCase() + action.slice(1)} issue in [${repo}](${repoUrl})<br>   ${issueTitle.substring(0, 80)}${issueTitle.length > 80 ? '...' : ''}`
-                );
-                count++;
               }
+            } catch (error) {
+              console.log('Error fetching repositories:', error.message);
+            }
+            
+            function getTimeAgo(date) {
+              const seconds = Math.floor((new Date() - date) / 1000);
+              if (seconds < 60) return 'just now';
+              const minutes = Math.floor(seconds / 60);
+              if (minutes < 60) return `${minutes}m ago`;
+              const hours = Math.floor(minutes / 60);
+              if (hours < 24) return `${hours}h ago`;
+              const days = Math.floor(hours / 24);
+              if (days < 7) return `${days}d ago`;
+              const weeks = Math.floor(days / 7);
+              return `${weeks}w ago`;
             }
             
             if (activityLines.length === 0) {
