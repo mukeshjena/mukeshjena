@@ -1,16 +1,16 @@
 <div align="center">
 
-<!-- Animated Wave Header with Custom Design -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=6,11,20,24,30&text=MUKESH%20JENA&fontSize=80&fontColor=fff&fontAlignY=35&animation=twinkling&desc=Flutter%20Developer%20%7C%20Mobile%20App%20Enthusiast%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=6AD3F7" width="100%"/>
+<!-- Dynamic Wave Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=0,2,3,5,6&text=MUKESH%20JENA&fontSize=80&fontColor=fff&fontAlignY=35&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=6AD3F7" width="100%"/>
 
 <!-- Dynamic Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=6AD3F7&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=%F0%9F%9A%80+Flutter+Developer+%7C+Mobile+App+Creator;%F0%9F%8E%A8+Building+Beautiful+Cross-Platform+Apps;%E2%9C%A8+Open+Source+Enthusiast+%7C+Tech+Explorer;%F0%9F%92%A1+Turning+Ideas+Into+Reality+with+Code" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=6AD3F7&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=140&lines=%F0%9F%9A%80+Full-Stack+Software+Developer;%E2%98%81%EF%B8%8F+.NET+APIs+%7C+React+%7C+Flutter+%7C+Cloud+Automation;%F0%9F%93%A6+Building+Scalable+Solutions+%26+NPM+Packages;%F0%9F%8E%A8+Crafting+Enterprise-Grade+Applications;%E2%9C%A8+Passionate+Learner+%7C+Ready+to+Make+a+Mark" alt="Typing SVG" />
 
 </div>
 
 <br/>
 
-<!-- Dynamic Snake Animation - Shows Real Contributions -->
+<!-- Dynamic Snake Animation -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/github-contribution-grid-snake.svg">
@@ -25,81 +25,105 @@
 
 </div>
 
-```dart
-class MukeshJena {
-  // Basic Info
-  final String name = "Mukesh Jena";
-  final String location = "📍 Ghaziabad, Uttar Pradesh, India";
-  final String role = "Flutter Developer | Mobile App Enthusiast";
-  final String tagline = "Passionate Learner | Coding Enthusiast | Ready to Make a Mark";
-  
-  // Technical Skills
-  List<String> languages = [
-    "Dart", "JavaScript", "Python", "Java", "C++"
-  ];
-  
-  Map<String, dynamic> expertise = {
-    "mobile": ["Flutter", "Dart", "Android", "iOS", "Cross-Platform"],
-    "frontend": ["HTML5", "CSS3", "JavaScript", "React", "Responsive Design"],
-    "backend": ["Node.js", "Express", "REST APIs", "Firebase"],
-    "database": ["Firebase Firestore", "SQLite", "MongoDB", "Supabase"],
-    "stateManagement": ["Provider", "Riverpod", "BLoC", "GetX"],
-    "tools": ["Git", "VS Code", "Android Studio", "Figma", "Postman"],
-    "architecture": ["MVVM", "Clean Architecture", "Repository Pattern"]
-  };
-  
-  // Current Activities
-  List<String> currentlyBuilding = [
-    "🎬 Filmify - Movie Discovery App",
-    "📰 News App - Real-time News Aggregator",
-    "💬 ChatGPT Integration App",
-    "📝 NoteMate - Smart Note Taking",
-    "🎮 Interactive Games"
-  ];
-  
-  List<String> learning = [
-    "Advanced Flutter Animations",
-    "Microservices Architecture", 
-    "Cloud Native Development",
-    "AI/ML Integration in Mobile Apps"
-  ];
-  
-  // Achievements
-  Map<String, int> stats = {
-    "publicRepos": 34,
-    "totalCommits": 500,
-    "pullRequests": 10,
-    "issuesResolved": 5
-  };
-  
-  String currentFocus = "Building production-ready Flutter apps with clean architecture";
-  String funFact = "I debug with print() statements and I'm proud of it! 🐛☕";
-  
-  // Contact
-  Map<String, String> socialLinks = {
-    "portfolio": "https://mukeshjena.com",
-    "linkedin": "https://linkedin.com/in/mukesh-jena",
-    "twitter": "https://twitter.com/mukesh_jena07",
-    "facebook": "https://facebook.com/mukesh.jena.969",
-    "instagram": "https://instagram.com/_mukeshjena_"
-  };
-  
-  void introduce() {
-    print('''
-    🚀 Hey there! I'm $name
-    🎯 Focus: $currentFocus
-    💡 $tagline
-    📧 Let's connect and build something amazing!
-    ''');
-  }
-}
+```typescript
+const mukeshJena = {
+    // Identity
+    name: "Mukesh Jena",
+    location: "📍 Ghaziabad, Uttar Pradesh, India",
+    role: "Full-Stack Software Developer",
+    tagline: "Passionate Learner | Coding Enthusiast | Ready to Make a Mark",
+    
+    // Technical Expertise
+    languages: [
+        "C#", "JavaScript", "TypeScript", "Python", 
+        "Dart", "Java", "Go", "SQL"
+    ],
+    
+    specializations: {
+        backend: {
+            dotnet: [".NET Core", ".NET 8/9", "ASP.NET Core", "Web API", 
+                    "Entity Framework", "Dapper", "LINQ"],
+            nodeJs: ["Express.js", "NestJS", "Fastify"],
+            architecture: ["Clean Architecture", "CQRS", "Microservices", 
+                          "Domain-Driven Design", "RESTful APIs", "GraphQL"]
+        },
+        
+        frontend: {
+            web: ["React", "Next.js", "Vue.js", "Angular"],
+            mobile: ["Flutter", "React Native"],
+            styling: ["Tailwind CSS", "Material-UI", "Bootstrap", "Styled Components"],
+            stateManagement: ["Redux", "Zustand", "Context API", "BLoC", "Provider"]
+        },
+        
+        cloud: {
+            platforms: ["Azure", "AWS", "Google Cloud"],
+            services: ["Azure Functions", "Lambda", "App Service", "Container Apps"],
+            devOps: ["Azure DevOps", "GitHub Actions", "Docker", "Kubernetes"],
+            iac: ["Terraform", "Bicep", "ARM Templates"],
+            automation: ["CI/CD Pipelines", "Infrastructure as Code", "Cloud Orchestration"]
+        },
+        
+        database: {
+            sql: ["SQL Server", "PostgreSQL", "MySQL"],
+            noSql: ["MongoDB", "Redis", "CosmosDB"],
+            orm: ["Entity Framework Core", "Prisma", "Dapper"]
+        },
+        
+        tools: {
+            versionControl: ["Git", "GitHub", "Azure Repos"],
+            ide: ["Visual Studio", "VS Code", "JetBrains Rider"],
+            testing: ["xUnit", "NUnit", "Jest", "Cypress"],
+            apiTools: ["Postman", "Swagger", "Insomnia"]
+        }
+    },
+    
+    // Projects & Contributions
+    achievements: {
+        publicRepos: 34,
+        npmPackages: "Published multiple utility packages",
+        cloudAutomations: "Built enterprise-level automation solutions",
+        apisDeveloped: "50+ production-ready APIs",
+        fullStackApps: "End-to-end web & mobile applications"
+    },
+    
+    // Current Focus
+    currentlyWorking: [
+        "🎬 Filmify - Movie Discovery Platform",
+        "📰 News Aggregator - Real-time News App",
+        "🤖 AI-Powered Chat Applications",
+        "☁️ Cloud Infrastructure Automation",
+        "📦 Open Source NPM Packages"
+    ],
+    
+    learning: [
+        "Advanced .NET Performance Optimization",
+        "Distributed Systems & Event-Driven Architecture",
+        "Azure Cloud Native Applications",
+        "Large Scale System Design",
+        "Kubernetes Orchestration"
+    ],
+    
+    currentFocus: "Building enterprise-grade, scalable solutions with modern tech stacks",
+    
+    funFact: "I speak fluent C# and JavaScript, but still debug with console.log()! 🐛☕",
+    
+    // Social
+    connect: {
+        portfolio: "https://mukeshjena.com",
+        linkedin: "https://linkedin.com/in/mukesh-jena",
+        twitter: "https://twitter.com/mukesh_jena07",
+        email: "contact@mukeshjena.com"
+    }
+};
+
+export default mukeshJena;
 ```
 
 <br/>
 
 <div align="center">
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> Current Mission
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> What I'm Building
 
 </div>
 
@@ -107,46 +131,50 @@ class MukeshJena {
 <tr>
 <td width="50%" valign="top">
 
-### 🔥 Working On
+### 🔥 Active Projects
+
 ```yaml
-projects:
-  - name: "Filmify"
-    tech: [Flutter, TMDb API, REST]
-    status: "⭐ Active - 3 Stars"
-    
-  - name: "News App" 
-    tech: [Flutter, News API, HTTP]
-    status: "🚀 Building"
-    
-  - name: "ChatGPT App"
-    tech: [Flutter, OpenAI, AI]
-    status: "🤖 AI Integration"
-    
-  - name: "NoteMate"
-    tech: [Flutter, SQLite, CRUD]
-    status: "📝 Production"
+backend_apis:
+  - .NET Core Web APIs
+  - RESTful Services
+  - GraphQL Endpoints
+  - Microservices Architecture
+  
+frontend_apps:
+  - React Applications
+  - Next.js Projects
+  - Flutter Mobile Apps
+  - Progressive Web Apps
+  
+cloud_solutions:
+  - Azure Automation Scripts
+  - Infrastructure as Code
+  - CI/CD Pipelines
+  - Serverless Functions
 ```
 
 </td>
 <td width="50%" valign="top">
 
-### 🌱 Learning Journey
+### 🌱 Learning & Exploring
+
 ```yaml
-current_learning:
-  flutter:
-    - Custom Animations
-    - Advanced Widgets
-    - Performance Optimization
-    
-  architecture:
-    - Clean Architecture
-    - SOLID Principles
-    - Design Patterns
-    
-  backend:
-    - Firebase Cloud Functions
-    - RESTful API Design
-    - Microservices
+advanced_topics:
+  - Clean Architecture Patterns
+  - Event-Driven Systems
+  - Message Queues (RabbitMQ, Azure Service Bus)
+  - CQRS with MediatR
+  
+performance:
+  - .NET Performance Tuning
+  - Database Optimization
+  - Caching Strategies (Redis)
+  - Load Balancing
+  
+devops:
+  - Kubernetes Deep Dive
+  - Docker Containerization
+  - Azure DevOps Mastery
 ```
 
 </td>
@@ -157,51 +185,71 @@ current_learning:
 
 <div align="center">
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> Tech Stack
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40"> Tech Stack & Expertise
+
+### 🎯 Backend Development
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
+### 🎨 Frontend Development
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
 
 ### 📱 Mobile Development
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 
-### 💻 Programming Languages
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+### ☁️ Cloud & DevOps
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
 
-### 🎨 Frontend Technologies
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-### ⚡ Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+### 🗄️ Database & Caching
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![CosmosDB](https://img.shields.io/badge/CosmosDB-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
 ### 🛠️ Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![NuGet](https://img.shields.io/badge/NuGet-004880?style=for-the-badge&logo=nuget&logoColor=white)
 
-### 🔧 State Management
-![Provider](https://img.shields.io/badge/Provider-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Riverpod](https://img.shields.io/badge/Riverpod-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![BLoC](https://img.shields.io/badge/BLoC-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![GetX](https://img.shields.io/badge/GetX-8A2BE2?style=for-the-badge&logo=flutter&logoColor=white)
+### 🏗️ Architecture & Patterns
+![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-0078D4?style=for-the-badge)
+![Microservices](https://img.shields.io/badge/Microservices-FF6B6B?style=for-the-badge)
+![CQRS](https://img.shields.io/badge/CQRS-512BD4?style=for-the-badge)
+![Event Driven](https://img.shields.io/badge/Event_Driven-4CAF50?style=for-the-badge)
+![DDD](https://img.shields.io/badge/Domain_Driven_Design-2196F3?style=for-the-badge)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
 </div>
 
@@ -213,15 +261,15 @@ current_learning:
 
 <!-- Dynamic GitHub Stats -->
 <a href="https://github.com/mukeshjena">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=mukeshjena&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&ring_color=58A6FF"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mukeshjena&layout=compact&langs_count=10&theme=algolia&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10&card_width=320"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=mukeshjena&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&ring_color=58A6FF"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mukeshjena&layout=compact&langs_count=12&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10&card_width=320"/>
 </a>
 
 <br/><br/>
 
 <!-- Dynamic Streak Stats -->
 <a href="https://github.com/mukeshjena">
-  <img src="https://streak-stats.demolab.com/?user=mukeshjena&theme=algolia&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=10" alt="GitHub Streak Stats" width="70%"/>
+  <img src="https://streak-stats.demolab.com/?user=mukeshjena&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=10" alt="GitHub Streak Stats" width="70%"/>
 </a>
 
 <br/><br/>
@@ -252,7 +300,7 @@ current_learning:
 ## 🏆 GitHub Trophies - Dynamic Achievements
 
 <a href="https://github.com/mukeshjena">
-  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15&title=Stars,Commits,Repositories,PullRequest,Issues,Followers,Experience" width="100%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15&title=Stars,Commits,Repositories,PullRequest,Issues,Followers,MultiLanguage" width="100%"/>
 </a>
 
 </div>
@@ -261,7 +309,7 @@ current_learning:
 
 <div align="center">
 
-## 🌟 Pinned Projects - Auto-Updated
+## 🌟 Featured Projects - Auto-Updated
 
 </div>
 
@@ -270,16 +318,16 @@ current_learning:
 <tr>
 <td width="50%" valign="top">
 
-### 🎬 Filmify
+### 🎬 Filmify - Movie Discovery Platform
 <div align="center">  
 <a href="https://github.com/mukeshjena/Filmify">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=Filmify&theme=algolia&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=Filmify&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Tech:** Flutter • Dart • TMDb API • REST API  
-**Features:** Real-time movie data, Search, Favorites  
-**Status:** ⭐ Live & Active
+**Stack:** Flutter • Dart • TMDb API • REST  
+**Features:** Movie search, recommendations, favorites  
+**Highlights:** Clean UI, responsive design, API integration
 
 <p align="center">
 <a href="https://github.com/mukeshjena/Filmify">
@@ -293,22 +341,22 @@ current_learning:
 
 <td width="50%" valign="top">
 
-### 📝 NoteMate
+### 📝 NoteMate - Smart Note Taking
 <div align="center">
 <a href="https://github.com/mukeshjena/NoteMate">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=NoteMate&theme=algolia&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=NoteMate&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Tech:** Flutter • SQLite • CRUD • Local Storage  
-**Features:** Create, Read, Update, Delete notes  
-**Status:** 🚀 Production Ready
+**Stack:** Flutter • SQLite • CRUD Operations  
+**Features:** Create, edit, delete notes with persistence  
+**Highlights:** Local database, offline support
 
 <p align="center">
 <a href="https://github.com/mukeshjena/NoteMate">
 <img src="https://img.shields.io/github/stars/mukeshjena/NoteMate?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
 <img src="https://img.shields.io/github/forks/mukeshjena/NoteMate?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/issues/mukeshjena/NoteMate?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/last-commit/mukeshjena/NoteMate?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
 </a>
 </p>
 
@@ -318,22 +366,21 @@ current_learning:
 <tr>
 <td width="50%" valign="top">
 
-### 📰 News App
+### 📰 News App - Real-Time Aggregator
 <div align="center">
 <a href="https://github.com/mukeshjena/news_app_flutter">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=news_app_flutter&theme=algolia&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=news_app_flutter&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Tech:** Flutter • News API • HTTP • JSON  
-**Features:** Real-time news, Categories, Search  
-**Status:** 📱 Active Development
+**Stack:** Flutter • News API • HTTP • JSON  
+**Features:** Real-time news, categories, search functionality  
+**Highlights:** Multi-source aggregation, responsive UI
 
 <p align="center">
 <a href="https://github.com/mukeshjena/news_app_flutter">
 <img src="https://img.shields.io/github/stars/mukeshjena/news_app_flutter?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
 <img src="https://img.shields.io/github/forks/mukeshjena/news_app_flutter?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/last-commit/mukeshjena/news_app_flutter?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
 </a>
 </p>
 
@@ -341,22 +388,21 @@ current_learning:
 
 <td width="50%" valign="top">
 
-### 🤖 ChatGPT App
+### 🤖 ChatGPT Integration App
 <div align="center">
 <a href="https://github.com/mukeshjena/chat_gpt_app_flutter">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=chat_gpt_app_flutter&theme=algolia&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=chat_gpt_app_flutter&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Tech:** Flutter • OpenAI API • AI • Chat  
-**Features:** AI chat, Conversations, Smart replies  
-**Status:** 🤖 AI-Powered
+**Stack:** Flutter • OpenAI API • AI/ML  
+**Features:** AI conversations, context management  
+**Highlights:** Real-time responses, conversation history
 
 <p align="center">
 <a href="https://github.com/mukeshjena/chat_gpt_app_flutter">
 <img src="https://img.shields.io/github/stars/mukeshjena/chat_gpt_app_flutter?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
 <img src="https://img.shields.io/github/forks/mukeshjena/chat_gpt_app_flutter?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/last-commit/mukeshjena/chat_gpt_app_flutter?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
 </a>
 </p>
 
@@ -369,13 +415,13 @@ current_learning:
 ### ⚖️ BMI Calculator
 <div align="center">
 <a href="https://github.com/mukeshjena/bmi_calculator">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=bmi_calculator&theme=algolia&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=bmi_calculator&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Tech:** Flutter • Dart • Material Design  
-**Features:** Calculate BMI, Health tips  
-**Status:** ✅ Complete
+**Stack:** Flutter • Dart • Material Design  
+**Features:** BMI calculation, health insights  
+**Highlights:** Beautiful UI, instant calculations
 
 <p align="center">
 <a href="https://github.com/mukeshjena/bmi_calculator">
@@ -388,16 +434,16 @@ current_learning:
 
 <td width="50%" valign="top">
 
-### 🎮 Tic Tac Toe
+### 🎮 Tic Tac Toe Game
 <div align="center">
 <a href="https://github.com/mukeshjena/tic_tac_toe">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=tic_tac_toe&theme=algolia&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=tic_tac_toe&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Tech:** Flutter • Game Logic • Animations  
-**Features:** 2-player game, Score tracking  
-**Status:** 🎮 Playable
+**Stack:** Flutter • Game Logic • Animations  
+**Features:** 2-player mode, score tracking  
+**Highlights:** Smooth animations, intuitive UI
 
 <p align="center">
 <a href="https://github.com/mukeshjena/tic_tac_toe">
@@ -417,9 +463,7 @@ current_learning:
 
 ## 📈 Contribution Metrics - Real-Time
 
-<!-- Dynamic Metrics -->
-<img src="https://github-contributor-stats.vercel.app/api?username=mukeshjena&limit=5&theme=algolia&combine_all_yearly_contributions=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10" width="48%"/>
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/wakatime?username=mukeshjena&theme=algolia&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10&layout=compact" width="48%"/>
+<img src="https://github-contributor-stats.vercel.app/api?username=mukeshjena&limit=5&theme=react&combine_all_yearly_contributions=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10" width="70%"/>
 
 </div>
 
@@ -429,7 +473,7 @@ current_learning:
 
 ## 💡 Dynamic Dev Quote
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=algolia&border=true&border_radius=10" alt="Random Dev Quote"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=react&border=true&border_radius=10" alt="Random Dev Quote"/>
 
 </div>
 
@@ -440,22 +484,22 @@ current_learning:
 ## 🤝 Let's Connect & Collaborate
 
 <a href="https://www.linkedin.com/in/mukesh-jena/">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square" />
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://twitter.com/mukesh_jena07">
-<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&style=flat-square" />
+<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
 </a>
 <a href="https://www.facebook.com/mukesh.jena.969">
-<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white&style=flat-square" />
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
 </a>
 <a href="https://www.instagram.com/_mukeshjena_/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&style=flat-square" />
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
 <a href="https://mukeshjena.com">
-<img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white&style=flat-square" />
+<img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" />
 </a>
 <a href="mailto:contact@mukeshjena.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&style=flat-square" />
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
 </div>
@@ -476,9 +520,81 @@ current_learning:
 
 <div align="center">
 
-## 💼 GitHub Summary - Auto-Generated
+## 💼 Professional Expertise
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=mukeshjena&show_icons=true&count_private=true&theme=algolia&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&custom_title=Mukesh's%20GitHub%20Stats&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" width="70%"/>
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+
+### 🎯 Backend Development
+**Building Robust APIs**
+
+```csharp
+// .NET Core Web API
+[ApiController]
+[Route("api/[controller]")]
+public class UserController 
+{
+    // Clean Architecture
+    // CQRS Pattern
+    // Entity Framework
+}
+```
+
+✅ RESTful APIs  
+✅ Microservices  
+✅ Clean Architecture  
+✅ Entity Framework  
+✅ LINQ & Dapper
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### ☁️ Cloud & DevOps
+**Automating Infrastructure**
+
+```yaml
+# Azure Pipeline
+trigger: [main]
+pool:
+  vmImage: 'ubuntu-latest'
+steps:
+  - task: Docker@2
+  - task: Kubernetes@1
+  - task: AzureCLI@2
+```
+
+✅ Azure/AWS/GCP  
+✅ Docker & K8s  
+✅ CI/CD Pipelines  
+✅ Infrastructure as Code  
+✅ Cloud Automation
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 🎨 Frontend & Mobile
+**Crafting User Experiences**
+
+```javascript
+// React Component
+const App = () => {
+  // Redux State
+  // React Hooks
+  // Modern UI/UX
+  return <Beautiful UI />
+}
+```
+
+✅ React/Next.js  
+✅ Flutter Apps  
+✅ Responsive Design  
+✅ State Management  
+✅ Modern UI/UX
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -486,42 +602,46 @@ current_learning:
 
 <div align="center">
 
-## 🎯 2025 Goals & Roadmap
+## 🎯 2025 Development Roadmap
 
 ```mermaid
 gantt
-    title Mukesh's Development Roadmap 2025
-    dateFormat  YYYY-MM
-    section Skills
-    Master Flutter Advanced    :2025-01, 2025-06
-    Backend with Node.js      :2025-03, 2025-08
-    System Design            :2025-06, 2025-12
+    title Mukesh's Technical Roadmap 2025
+    dateFormat YYYY-MM
+    section Backend
+    .NET Advanced Patterns    :2025-01, 2025-04
+    Microservices at Scale    :2025-03, 2025-08
+    Event-Driven Systems      :2025-05, 2025-10
+    section Cloud
+    Azure Solutions Architect :2025-01, 2025-06
+    Kubernetes Deep Dive      :2025-04, 2025-09
+    Multi-Cloud Strategy      :2025-07, 2025-12
+    section Frontend
+    Advanced React Patterns   :2025-01, 2025-05
+    Next.js 15 Mastery       :2025-03, 2025-07
+    Flutter Production Apps   :2025-01, 2025-12
     section Projects
-    Launch 5 Apps            :2025-01, 2025-06
-    Open Source Contrib      :2025-01, 2025-12
-    Build SaaS Product       :2025-07, 2025-12
+    Build 10+ APIs           :2025-01, 2025-06
+    Launch 5 NPM Packages    :2025-02, 2025-08
+    3 Full-Stack SaaS Apps   :2025-04, 2025-12
 ```
 
-### Milestones
+</div>
 
-✅ **Completed**
-- 34+ Public Repositories Created
-- Flutter Development Mastery
-- Multiple Production Apps
+<br/>
 
-🔄 **In Progress**
-- Advanced State Management
-- Cloud Integration
-- UI/UX Excellence
-- Open Source Contributions
+<div align="center">
 
-🎯 **Upcoming**
-- Launch Apps on Play Store
-- Build 10+ Production Apps
-- Master Backend Development
-- Contribute to Major OSS Projects
-- Learn System Design
-- Build Personal SaaS Product
+## 🏅 Skills & Certifications
+
+| Category | Technologies | Proficiency |
+|----------|-------------|-------------|
+| **Backend** | .NET Core, C#, Node.js, Python | ⭐⭐⭐⭐⭐ |
+| **Frontend** | React, Next.js, TypeScript, Vue | ⭐⭐⭐⭐⭐ |
+| **Mobile** | Flutter, Dart, React Native | ⭐⭐⭐⭐⭐ |
+| **Cloud** | Azure, AWS, Docker, Kubernetes | ⭐⭐⭐⭐ |
+| **Database** | SQL Server, PostgreSQL, MongoDB | ⭐⭐⭐⭐⭐ |
+| **DevOps** | CI/CD, GitHub Actions, Terraform | ⭐⭐⭐⭐ |
 
 </div>
 
@@ -532,7 +652,7 @@ gantt
 ## 📚 Latest Activity - Auto-Updated
 
 <!--START_SECTION:activity-->
-<!-- This will be automatically updated by GitHub Actions -->
+<!-- GitHub activity will be automatically updated here -->
 <!--END_SECTION:activity-->
 
 </div>
@@ -541,14 +661,85 @@ gantt
 
 <div align="center">
 
-### 💭 "Code is poetry written in logic" 
+## 🎖️ Achievements & Milestones
 
-### 🚀 Open to collaborate on exciting Flutter projects!
-
-### ⭐ From [mukeshjena](https://github.com/mukeshjena) with ❤️ 
-
-### Made with Flutter 🦋 | Powered by Passion 🔥
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=6,11,20,24,30&section=footer&animation=twinkling" width="100%"/>
+```yaml
+repositories:
+  total: 34
+  stars_received: 3+
+  forks: Multiple
+  
+contributions:
+  commits: 500+
+  pull_requests: 10+
+  issues_resolved: 5+
+  
+expertise:
+  backend_apis: "50+ production APIs"
+  npm_packages: "Published utility packages"
+  cloud_automation: "Enterprise solutions"
+  full_stack_apps: "End-to-end applications"
+  
+open_source:
+  status: "Active Contributor"
+  focus: "Quality over quantity"
+```
 
 </div>
+
+<br/>
+
+<div align="center">
+
+## 🚀 Current Goals
+
+<table>
+<tr>
+<td align="center">🎯</td>
+<td><strong>Master Advanced .NET Patterns</strong><br/>CQRS, Event Sourcing, DDD</td>
+<td align="center">🔄 In Progress</td>
+</tr>
+<tr>
+<td align="center">☁️</td>
+<td><strong>Azure Solutions Architect</strong><br/>Cloud-native applications at scale</td>
+<td align="center">📚 Learning</td>
+</tr>
+<tr>
+<td align="center">🌐</td>
+<td><strong>Build 10+ Production APIs</strong><br/>RESTful & GraphQL endpoints</td>
+<td align="center">🚀 Active</td>
+</tr>
+<tr>
+<td align="center">📦</td>
+<td><strong>Publish 5 NPM Packages</strong><br/>Open source contributions</td>
+<td align="center">📝 Planning</td>
+</tr>
+<tr>
+<td align="center">📱</td>
+<td><strong>Launch 5 Mobile Apps</strong><br/>Flutter & React Native</td>
+<td align="center">💪 Building</td>
+</tr>
+<tr>
+<td align="center">🤝</td>
+<td><strong>Open Source Leadership</strong><br/>Contribute to major projects</td>
+<td align="center">✨ Ongoing</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### 💬 "First, solve the problem. Then, write the code." - John Johnson
+
+### 🚀 Open to exciting opportunities and collaborations!
+
+### ⭐ From [mukeshjena](https://github.com/mukeshjena) with ❤️
+
+### Built with passion | Powered by innovation | Driven by excellence
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=0,2,3,5,6&section=footer&animation=twinkling" width="100%"/>
+
+</div
