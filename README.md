@@ -489,194 +489,278 @@
 
 ## 🌟 Featured Projects - Full-Stack Development Portfolio
 
-</div>
-
 <div align="center">
+
+### 🏗️ Backend & Architecture Projects
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🏗️ Clean Architecture CQRS MediatR
-<div align="center">  
+#### 🏗️ Clean Architecture CQRS MediatR
+
+<div align="center">
 <a href="https://github.com/mukeshjena/Clean-Architecture-CQRS-MediatR">
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=Clean-Architecture-CQRS-MediatR&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Stack:** .NET Core • CQRS • MediatR • Clean Architecture  
+<div align="center">
+
+![.NET Core](https://img.shields.io/badge/.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![CQRS](https://img.shields.io/badge/CQRS-512BD4?style=flat-square&logo=code&logoColor=white)
+![MediatR](https://img.shields.io/badge/MediatR-512BD4?style=flat-square&logo=code&logoColor=white)
+
+</div>
+
 **Features:** Enterprise patterns, separation of concerns  
 **Highlights:** Production-ready API architecture, best practices
 
-<p align="center">
-<a href="https://github.com/mukeshjena/Clean-Architecture-CQRS-MediatR">
-<img src="https://img.shields.io/github/stars/mukeshjena/Clean-Architecture-CQRS-MediatR?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/Clean-Architecture-CQRS-MediatR?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-</a>
-</p>
-
-</td>
-
-<td width="50%" valign="top">
-
-### 📦 Lucid Alerts - NPM Package
 <div align="center">
-<a href="https://github.com/mukeshjena/lucid-alerts">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=lucid-alerts&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+<a href="https://github.com/mukeshjena/Clean-Architecture-CQRS-MediatR">
+<img src="https://img.shields.io/github/stars/mukeshjena/Clean-Architecture-CQRS-MediatR?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/Clean-Architecture-CQRS-MediatR?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
 </a>
 </div>
 
-**Stack:** JavaScript • NPM • Open Source  
-**Features:** Modern alert library, customizable notifications  
-**Highlights:** Lightweight, alternative to SweetAlert2
-
-<p align="center">
-<a href="https://github.com/mukeshjena/lucid-alerts">
-<img src="https://img.shields.io/github/stars/mukeshjena/lucid-alerts?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/lucid-alerts?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-</a>
-</p>
-
 </td>
-</tr>
 
-<tr>
 <td width="50%" valign="top">
 
-### ☁️ CloudAMQP Inter-Network Communication
+#### ☁️ CloudAMQP Inter-Network Communication
+
 <div align="center">
 <a href="https://github.com/mukeshjena/CloudAMQP-Inter-Network-Communication">
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=CloudAMQP-Inter-Network-Communication&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Stack:** .NET Core • CloudAMQP • Message Queue • Cloud Automation  
+<div align="center">
+
+![.NET Core](https://img.shields.io/badge/.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![CloudAMQP](https://img.shields.io/badge/CloudAMQP-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+
+</div>
+
 **Features:** Inter-service communication, cloud messaging  
 **Highlights:** Enterprise cloud automation, scalable architecture
 
-<p align="center">
+<div align="center">
 <a href="https://github.com/mukeshjena/CloudAMQP-Inter-Network-Communication">
-<img src="https://img.shields.io/github/stars/mukeshjena/CloudAMQP-Inter-Network-Communication?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/CloudAMQP-Inter-Network-Communication?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/stars/mukeshjena/CloudAMQP-Inter-Network-Communication?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/CloudAMQP-Inter-Network-Communication?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
 </a>
-</p>
+</div>
 
 </td>
+</tr>
+</table>
 
+<br/>
+
+### 🚀 Full-Stack & API Projects
+
+<table>
+<tr>
 <td width="50%" valign="top">
 
-### 🚀 Email Service API - Full-Stack
+#### 🚀 Email Service API - Full-Stack
+
 <div align="center">
 <a href="https://github.com/mukeshjena/email-service-api">
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=email-service-api&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Stack:** TypeScript • Node.js • REST API • Full-Stack  
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-009688?style=flat-square&logo=api&logoColor=white)
+
+</div>
+
 **Features:** Email service, API endpoints, microservices  
 **Highlights:** Production-ready service, scalable design
 
-<p align="center">
+<div align="center">
 <a href="https://github.com/mukeshjena/email-service-api">
-<img src="https://img.shields.io/github/stars/mukeshjena/email-service-api?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/email-service-api?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-</a>
-</p>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🎨 Groq AI Chat Application
-<div align="center">
-<a href="https://github.com/mukeshjena/groq-ai-chat-application">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=groq-ai-chat-application&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+<img src="https://img.shields.io/github/stars/mukeshjena/email-service-api?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/email-service-api?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
 </a>
 </div>
 
-**Stack:** TypeScript • React • AI/ML • Full-Stack  
-**Features:** AI chat interface, real-time responses  
-**Highlights:** Modern React app, AI integration
-
-<p align="center">
-<a href="https://github.com/mukeshjena/groq-ai-chat-application">
-<img src="https://img.shields.io/github/stars/mukeshjena/groq-ai-chat-application?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/groq-ai-chat-application?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-</a>
-</p>
-
 </td>
 
 <td width="50%" valign="top">
 
-### 🎬 Filmify - Movie Discovery Platform
-<div align="center">
-<a href="https://github.com/mukeshjena/Filmify">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=Filmify&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
-</a>
-</div>
+#### 🏢 Cafeteria Management System
 
-**Stack:** Flutter • Dart • TMDb API • REST  
-**Features:** Movie search, recommendations, favorites  
-**Highlights:** Clean UI, responsive design, API integration
-
-<p align="center">
-<a href="https://github.com/mukeshjena/Filmify">
-<img src="https://img.shields.io/github/stars/mukeshjena/Filmify?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/Filmify?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-</a>
-</p>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🛡️ Void Browser - Privacy Browser
-<div align="center">
-<a href="https://github.com/mukeshjena/void-browser">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=void-browser&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
-</a>
-</div>
-
-**Stack:** Flutter • Clean Architecture • Riverpod • Privacy  
-**Features:** Ad-blocker, privacy-focused, lightweight  
-**Highlights:** Production mobile app, clean architecture
-
-<p align="center">
-<a href="https://github.com/mukeshjena/void-browser">
-<img src="https://img.shields.io/github/stars/mukeshjena/void-browser?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/void-browser?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-</a>
-</p>
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🏢 Cafeteria Management System
 <div align="center">
 <a href="https://github.com/mukeshjena/Cafeteria_Management_System">
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=Cafeteria_Management_System&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
 </a>
 </div>
 
-**Stack:** JavaScript • Full-Stack • Web Application  
+<div align="center">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Full-Stack](https://img.shields.io/badge/Full--Stack-4CAF50?style=flat-square&logo=code&logoColor=white)
+![Web App](https://img.shields.io/badge/Web%20App-2196F3?style=flat-square&logo=web&logoColor=white)
+
+</div>
+
 **Features:** Management system, CRUD operations  
 **Highlights:** Complete full-stack solution
 
-<p align="center">
+<div align="center">
 <a href="https://github.com/mukeshjena/Cafeteria_Management_System">
-<img src="https://img.shields.io/github/stars/mukeshjena/Cafeteria_Management_System?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
-<img src="https://img.shields.io/github/forks/mukeshjena/Cafeteria_Management_System?style=for-the-badge&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/stars/mukeshjena/Cafeteria_Management_System?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/Cafeteria_Management_System?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
 </a>
-</p>
+</div>
 
 </td>
 </tr>
 </table>
+
+<br/>
+
+### 🎨 Frontend & AI Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🎨 Groq AI Chat Application
+
+<div align="center">
+<a href="https://github.com/mukeshjena/groq-ai-chat-application">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=groq-ai-chat-application&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+</a>
+</div>
+
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![AI/ML](https://img.shields.io/badge/AI%2FML-FF6B6B?style=flat-square&logo=brain&logoColor=white)
+
+</div>
+
+**Features:** AI chat interface, real-time responses  
+**Highlights:** Modern React app, AI integration
+
+<div align="center">
+<a href="https://github.com/mukeshjena/groq-ai-chat-application">
+<img src="https://img.shields.io/github/stars/mukeshjena/groq-ai-chat-application?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/groq-ai-chat-application?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+</a>
+</div>
+
+</td>
+
+<td width="50%" valign="top">
+
+#### 📦 Lucid Alerts - NPM Package
+
+<div align="center">
+<a href="https://github.com/mukeshjena/lucid-alerts">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=lucid-alerts&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+</a>
+</div>
+
+<div align="center">
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![NPM](https://img.shields.io/badge/NPM-CB3837?style=flat-square&logo=npm&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open%20Source-4CAF50?style=flat-square&logo=github&logoColor=white)
+
+</div>
+
+**Features:** Modern alert library, customizable notifications  
+**Highlights:** Lightweight, alternative to SweetAlert2
+
+<div align="center">
+<a href="https://github.com/mukeshjena/lucid-alerts">
+<img src="https://img.shields.io/github/stars/mukeshjena/lucid-alerts?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/lucid-alerts?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+</a>
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 📱 Mobile Applications
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🎬 Filmify - Movie Discovery Platform
+
+<div align="center">
+<a href="https://github.com/mukeshjena/Filmify">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=Filmify&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+</a>
+</div>
+
+<div align="center">
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![TMDb API](https://img.shields.io/badge/TMDb%20API-01D277?style=flat-square&logo=themoviedatabase&logoColor=white)
+
+</div>
+
+**Features:** Movie search, recommendations, favorites  
+**Highlights:** Clean UI, responsive design, API integration
+
+<div align="center">
+<a href="https://github.com/mukeshjena/Filmify">
+<img src="https://img.shields.io/github/stars/mukeshjena/Filmify?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/Filmify?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+</a>
+</div>
+
+</td>
+
+<td width="50%" valign="top">
+
+#### 🛡️ Void Browser - Privacy Browser
+
+<div align="center">
+<a href="https://github.com/mukeshjena/void-browser">
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=mukeshjena&repo=void-browser&theme=react&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&border_radius=10&show_owner=true" />
+</a>
+</div>
+
+<div align="center">
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-0078D4?style=flat-square&logo=code&logoColor=white)
+![Privacy](https://img.shields.io/badge/Privacy-Focused-4CAF50?style=flat-square&logo=shield&logoColor=white)
+
+</div>
+
+**Features:** Ad-blocker, privacy-focused, lightweight  
+**Highlights:** Production mobile app, clean architecture
+
+<div align="center">
+<a href="https://github.com/mukeshjena/void-browser">
+<img src="https://img.shields.io/github/stars/mukeshjena/void-browser?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+<img src="https://img.shields.io/github/forks/mukeshjena/void-browser?style=flat-square&logo=github&color=58A6FF&labelColor=0D1117"/>
+</a>
+</div>
+
+</td>
+</tr>
+</table>
+
 </div>
 
 <br/>
