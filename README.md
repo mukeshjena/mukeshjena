@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- Dynamic Wave Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=0,2,3,5,6&text=MUKESH%20JENA&fontSize=80&fontColor=fff&fontAlignY=35&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=6AD3F7" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=00FFFF,39FF14&text=MUKESH%20JENA&fontSize=80&fontColor=fff&fontAlignY=35&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=00FFFF" width="100%"/>
 
 <!-- Dynamic Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=6AD3F7&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=140&lines=%F0%9F%9A%80+Full-Stack+Software+Developer;%E2%98%81%EF%B8%8F+.NET+APIs+%7C+React+%7C+Flutter+%7C+Cloud+Automation;%F0%9F%93%A6+Building+Scalable+Solutions+%26+NPM+Packages;%F0%9F%8E%A8+Crafting+Enterprise-Grade+Applications;%E2%9C%A8+Passionate+Learner+%7C+Ready+to+Make+a+Mark" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=00FFFF&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=200&lines=%F0%9F%9A%80+Full-Stack+Software+Developer;%E2%98%81%EF%B8%8F+.NET+APIs+%7C+React+%7C+Flutter+%7C+Cloud+Automation;%F0%9F%93%A6+Building+Scalable+Solutions+%26+NPM+Packages;%F0%9F%8E%A8+Crafting+Enterprise-Grade+Applications;%E2%9C%A8+Passionate+Learner+%7C+Ready+to+Make+a+Mark" alt="Typing SVG" />
 
 </div>
 
@@ -796,6 +796,6 @@ open_source:
 
 ### Built with passion | Powered by innovation | Driven by excellence
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=0,2,3,5,6&section=footer&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=6AD3F7" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=00FFFF,39FF14&section=footer&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=00FFFF" width="100%"/>
 
 </div>
