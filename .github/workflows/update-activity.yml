@@ -18,6 +18,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Update README with recent activity
-        uses: jamesgeorge007/github-activity-readme@master
+        uses: Readme-Workflows/recent-activity@v2.4.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          GH_USERNAME: mukeshjena
+          EXCLUDE_REPOS: ""
+          EXCLUDE_EVENTS: ""
+          SHOW_COMMIT_MESSAGE: true
+          MAX_LINES: 10
