@@ -767,18 +767,6 @@
 
 <div align="center">
 
-## 📈 Contribution Metrics - Real-Time
-
-<div align="center">
-<img src="https://github-contributor-stats.vercel.app/api?username=mukeshjena&limit=5&theme=react&combine_all_yearly_contributions=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10" alt="Contribution Stats" width="100%"/>
-</div>
-
-</div>
-
-<br/>
-
-<div align="center">
-
 ## 💡 Dynamic Dev Quote
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=react&border=true&border_radius=10" alt="Random Dev Quote"/>
