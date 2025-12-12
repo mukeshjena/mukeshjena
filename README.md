@@ -25,101 +25,198 @@
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"> About Me
 
+<div align="center">
+
+### 👋 Hello, I'm Mukesh Jena
+
+![Location](https://img.shields.io/badge/Location-Ghaziabad%2C%20Uttar%20Pradesh%2C%20India-blue?style=flat-square&logo=map-marker-alt&logoColor=white)
+![Role](https://img.shields.io/badge/Role-Full--Stack%20Software%20Developer-512BD4?style=flat-square&logo=code&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Available%20for%20Opportunities-success?style=flat-square&logo=check-circle&logoColor=white)
+
+**Passionate Learner | Coding Enthusiast | Ready to Make a Mark**
+
 </div>
 
-```typescript
-const mukeshJena = {
-    // Identity
-    name: "Mukesh Jena",
-    location: "📍 Ghaziabad, Uttar Pradesh, India",
-    role: "Full-Stack Software Developer",
-    tagline: "Passionate Learner | Coding Enthusiast | Ready to Make a Mark",
-    
-    // Technical Expertise
-    languages: [
-        "C#", "JavaScript", "TypeScript", "Python", 
-        "Dart", "Java", "Go", "SQL"
-    ],
-    
-    specializations: {
-        backend: {
-            dotnet: [".NET Core", ".NET 8/9", "ASP.NET Core", "Web API", 
-                    "Entity Framework", "Dapper", "LINQ"],
-            nodeJs: ["Express.js", "NestJS", "Fastify"],
-            architecture: ["Clean Architecture", "CQRS", "Microservices", 
-                          "Domain-Driven Design", "RESTful APIs", "GraphQL"]
-        },
-        
-        frontend: {
-            web: ["React", "Next.js", "Vue.js", "Angular"],
-            mobile: ["Flutter", "React Native"],
-            styling: ["Tailwind CSS", "Material-UI", "Bootstrap", "Styled Components"],
-            stateManagement: ["Redux", "Zustand", "Context API", "BLoC", "Provider"]
-        },
-        
-        cloud: {
-            platforms: ["Azure", "AWS", "Google Cloud"],
-            services: ["Azure Functions", "Lambda", "App Service", "Container Apps"],
-            devOps: ["Azure DevOps", "GitHub Actions", "Docker", "Kubernetes"],
-            iac: ["Terraform", "Bicep", "ARM Templates"],
-            automation: ["CI/CD Pipelines", "Infrastructure as Code", "Cloud Orchestration"]
-        },
-        
-        database: {
-            sql: ["SQL Server", "PostgreSQL", "MySQL"],
-            noSql: ["MongoDB", "Redis", "CosmosDB"],
-            orm: ["Entity Framework Core", "Prisma", "Dapper"]
-        },
-        
-        tools: {
-            versionControl: ["Git", "GitHub", "Azure Repos"],
-            ide: ["Visual Studio", "VS Code", "JetBrains Rider"],
-            testing: ["xUnit", "NUnit", "Jest", "Cypress"],
-            apiTools: ["Postman", "Swagger", "Insomnia"]
-        }
-    },
-    
-    // Projects & Contributions
-    achievements: {
-        publicRepos: 34,
-        npmPackages: "Published multiple utility packages",
-        cloudAutomations: "Built enterprise-level automation solutions",
-        apisDeveloped: "50+ production-ready APIs",
-        fullStackApps: "End-to-end web & mobile applications"
-    },
-    
-    // Current Focus
-    currentlyWorking: [
-        "🎬 Filmify - Movie Discovery Platform",
-        "📰 News Aggregator - Real-time News App",
-        "🤖 AI-Powered Chat Applications",
-        "☁️ Cloud Infrastructure Automation",
-        "📦 Open Source NPM Packages"
-    ],
-    
-    learning: [
-        "Advanced .NET Performance Optimization",
-        "Distributed Systems & Event-Driven Architecture",
-        "Azure Cloud Native Applications",
-        "Large Scale System Design",
-        "Kubernetes Orchestration"
-    ],
-    
-    currentFocus: "Building enterprise-grade, scalable solutions with modern tech stacks",
-    
-    funFact: "I speak fluent C# and JavaScript, but still debug with console.log()! 🐛☕",
-    
-    // Social
-    connect: {
-        portfolio: "https://mukeshjena.com",
-        linkedin: "https://linkedin.com/in/mukesh-jena",
-        twitter: "https://twitter.com/mukesh_jena07",
-        email: "contact@mukeshjena.com"
-    }
-};
+<br/>
 
-export default mukeshJena;
-```
+### 🎯 Quick Overview
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 💼 Professional Identity
+
+<div align="center">
+
+**Full-Stack Software Developer**  
+*Building enterprise-grade solutions*
+
+📍 **Location:** Ghaziabad, Uttar Pradesh, India  
+🎯 **Focus:** Enterprise-grade, scalable solutions  
+🚀 **Mission:** Quality over quantity
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+#### 🛠️ Core Technologies
+
+<div align="center">
+
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 🎨 Specializations
+
+<table>
+<tr>
+<td width="33.3%" valign="top">
+
+#### 🏗️ Backend Development
+
+**Technologies:**
+- .NET Core & .NET 8/9
+- ASP.NET Core & Web API
+- Node.js (Express, NestJS)
+- Entity Framework & Dapper
+- Clean Architecture & CQRS
+- Microservices & DDD
+
+</td>
+<td width="33.3%" valign="top">
+
+#### 🎨 Frontend & Mobile
+
+**Technologies:**
+- React, Next.js, Vue.js, Angular
+- Flutter & React Native
+- Tailwind CSS & Material-UI
+- Redux, Zustand, Context API
+- TypeScript & Modern JavaScript
+
+</td>
+<td width="33.3%" valign="top">
+
+#### ☁️ Cloud & DevOps
+
+**Technologies:**
+- Azure, AWS, Google Cloud
+- Docker & Kubernetes
+- CI/CD Pipelines
+- Terraform & Infrastructure as Code
+- Azure DevOps & GitHub Actions
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 📊 Key Achievements
+
+<div align="center">
+
+<table>
+<tr>
+<td width="25%" valign="top" align="center">
+
+![Repos](https://img.shields.io/badge/Repositories-34-blue?style=for-the-badge&logo=github&logoColor=white)
+
+**34 Public Repos**
+
+</td>
+<td width="25%" valign="top" align="center">
+
+![APIs](https://img.shields.io/badge/APIs-50%2B-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+
+**50+ Production APIs**
+
+</td>
+<td width="25%" valign="top" align="center">
+
+![NPM](https://img.shields.io/badge/NPM%20Packages-Published-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+
+**Published Packages**
+
+</td>
+<td width="25%" valign="top" align="center">
+
+![Cloud](https://img.shields.io/badge/Cloud-Enterprise-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+
+**Enterprise Solutions**
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+### 🚀 Currently Working On
+
+<div align="center">
+
+- 🎬 **Filmify** - Movie Discovery Platform
+- 📰 **News Aggregator** - Real-time News App
+- 🤖 **AI-Powered Chat** Applications
+- ☁️ **Cloud Infrastructure** Automation
+- 📦 **Open Source** NPM Packages
+
+</div>
+
+<br/>
+
+### 📚 Currently Learning
+
+<div align="center">
+
+- Advanced .NET Performance Optimization
+- Distributed Systems & Event-Driven Architecture
+- Azure Cloud Native Applications
+- Large Scale System Design
+- Kubernetes Orchestration
+
+</div>
+
+<br/>
+
+### 💡 Fun Fact
+
+<div align="center">
+
+> *"I speak fluent C# and JavaScript, but still debug with console.log()! 🐛☕"*
+
+</div>
+
+<br/>
+
+### 🌐 Connect With Me
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-mukeshjena.com-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mukeshjena.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mukesh%20Jena-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mukesh-jena)
+[![Twitter](https://img.shields.io/badge/Twitter-@mukesh_jena07-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mukesh_jena07)
+[![Email](https://img.shields.io/badge/Email-contact@mukeshjena.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@mukeshjena.com)
+
+</div>
+
+</div>
 
 <br/>
 
