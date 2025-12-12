@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Dynamic Wave Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=0:255:255,57:255:20&text=MUKESH%20JENA&fontSize=80&fontColor=fff&fontAlignY=35&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=00FFFF" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&customColorList=00FFFF,39FF14&text=MUKESH%20JENA&fontSize=80&fontColor=fff&fontAlignY=35&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=00FFFF" width="100%"/>
 
 <!-- Dynamic Typing Animation -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=00FFFF&center=true&vCenter=true&multiline=true&repeat=true&width=1200&height=200&lines=%F0%9F%9A%80+Full-Stack+Software+Developer;%E2%98%81%EF%B8%8F+.NET+APIs+%7C+React+%7C+Flutter+%7C+Cloud+Automation;%F0%9F%93%A6+Building+Scalable+Solutions+%26+NPM+Packages;%F0%9F%8E%A8+Crafting+Enterprise-Grade+Applications;%E2%9C%A8+Passionate+Learner+%7C+Ready+to+Make+a+Mark" alt="Typing SVG" />
@@ -274,7 +274,7 @@ devops:
 <!-- Dynamic Streak Stats -->
 <div align="center">
 <a href="https://github.com/mukeshjena">
-  <img src="https://streak-stats.demolab.com/?user=mukeshjena&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=10" alt="GitHub Streak Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mukeshjena&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=10" alt="GitHub Streak Stats"/>
 </a>
 </div>
 
@@ -309,9 +309,11 @@ devops:
 
 ## 🏆 GitHub Trophies - Dynamic Achievements
 
+<div align="center">
 <a href="https://github.com/mukeshjena">
-  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15&title=Stars,Commits,Repositories,PullRequest,Issues,Followers,MultiLanguage" width="100%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15&title=Stars,Commits,Repositories,PullRequest,Issues,Followers,MultiLanguage" alt="GitHub Trophies" width="100%"/>
 </a>
+</div>
 
 </div>
 
@@ -796,6 +798,6 @@ open_source:
 
 ### Built with passion | Powered by innovation | Driven by excellence
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=0:255:255,57:255:20&section=footer&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=00FFFF" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=gradient&customColorList=00FFFF,39FF14&section=footer&animation=twinkling&desc=Full-Stack%20Developer%20%7C%20Cloud%20Architect%20%7C%20Open%20Source%20Contributor&descAlignY=55&descSize=18&descColor=00FFFF" width="100%"/>
 
 </div>
