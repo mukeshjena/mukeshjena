@@ -767,9 +767,30 @@
 
 <div align="center">
 
-## 💡 Dynamic Dev Quote
+## 💡 Daily Developer Inspiration
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=react&border=true&border_radius=10" alt="Random Dev Quote"/>
+<div align="center">
+
+### ✨ Today's Quote
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=react&border=true&border_radius=10" alt="Random Dev Quote" width="100%"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+![Quote](https://img.shields.io/badge/💬-Daily%20Inspiration-58A6FF?style=flat-square&logo=quote&logoColor=white)
+![Refresh](https://img.shields.io/badge/🔄-Auto%20Refresh-success?style=flat-square&logo=refresh&logoColor=white)
+
+</div>
+
+<sub><i>💡 A new quote appears every time you refresh the page!</i></sub>
+
+</div>
 
 </div>
 
