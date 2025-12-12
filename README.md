@@ -311,7 +311,7 @@ devops:
 
 <div align="center">
 <a href="https://github.com/mukeshjena">
-  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15&margin-h=15&title=Stars,Commits,Repositories,PullRequest,Issues,Followers,MultiLanguage" alt="GitHub Trophies" width="100%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&no-frame=false&no-bg=false&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" width="100%"/>
 </a>
 </div>
 
