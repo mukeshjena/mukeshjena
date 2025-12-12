@@ -310,8 +310,8 @@ devops:
 ## 🏆 GitHub Trophies - Dynamic Achievements
 
 <div align="center">
-<a href="https://github.com/mukeshjena">
-  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&no-frame=false&no-bg=false&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" width="100%"/>
+<a href="https://github.com/mukeshjena?tab=achievements">
+  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&row=1&column=7" alt="GitHub Trophies" width="100%"/>
 </a>
 </div>
 
