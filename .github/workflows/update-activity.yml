@@ -18,12 +18,86 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Update README with recent activity
-        uses: Readme-Workflows/recent-activity@v2.4.1
+        uses: actions/github-script@v7
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
           GH_USERNAME: mukeshjena
-          EXCLUDE_REPOS: ""
-          EXCLUDE_EVENTS: ""
-          SHOW_COMMIT_MESSAGE: true
-          MAX_LINES: 10
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username: process.env.GH_USERNAME,
+              per_page: 30
+            });
+            
+            const activityLines = [];
+            let count = 0;
+            const maxLines = 10;
+            
+            for (const event of events) {
+              if (count >= maxLines) break;
+              
+              if (event.type === 'PushEvent' && event.payload.commits && event.payload.commits.length > 0) {
+                const repo = event.repo.name;
+                const commits = event.payload.commits.length;
+                const commitMessages = event.payload.commits
+                  .slice(0, 3)
+                  .map(c => c.message.split('\n')[0])
+                  .join(', ');
+                const repoUrl = `https://github.com/${repo}`;
+                
+                activityLines.push(
+                  `${count + 1}. ⬆️ Pushed ${commits} commit(s) to [${repo}](${repoUrl})<br>   ${commitMessages.substring(0, 100)}${commitMessages.length > 100 ? '...' : ''}`
+                );
+                count++;
+              } else if (event.type === 'PullRequestEvent') {
+                const repo = event.repo.name;
+                const action = event.payload.action;
+                const prTitle = event.payload.pull_request?.title || 'Pull Request';
+                const repoUrl = `https://github.com/${repo}`;
+                
+                activityLines.push(
+                  `${count + 1}. 🔀 ${action.charAt(0).toUpperCase() + action.slice(1)} pull request in [${repo}](${repoUrl})<br>   ${prTitle.substring(0, 100)}${prTitle.length > 100 ? '...' : ''}`
+                );
+                count++;
+              } else if (event.type === 'IssuesEvent') {
+                const repo = event.repo.name;
+                const action = event.payload.action;
+                const issueTitle = event.payload.issue?.title || 'Issue';
+                const repoUrl = `https://github.com/${repo}`;
+                
+                activityLines.push(
+                  `${count + 1}. 🐛 ${action.charAt(0).toUpperCase() + action.slice(1)} issue in [${repo}](${repoUrl})<br>   ${issueTitle.substring(0, 100)}${issueTitle.length > 100 ? '...' : ''}`
+                );
+                count++;
+              }
+            }
+            
+            if (activityLines.length === 0) {
+              activityLines.push('<!-- No recent activity found -->');
+            }
+            
+            const readmePath = 'README.md';
+            let readmeContent = fs.readFileSync(readmePath, 'utf8');
+            
+            const startMarker = '<!--RECENT_ACTIVITY:start-->';
+            const endMarker = '<!--RECENT_ACTIVITY:end-->';
+            
+            const startIndex = readmeContent.indexOf(startMarker);
+            const endIndex = readmeContent.indexOf(endMarker);
+            
+            if (startIndex !== -1 && endIndex !== -1) {
+              const before = readmeContent.substring(0, startIndex + startMarker.length);
+              const after = readmeContent.substring(endIndex);
+              const newContent = before + '\n' + activityLines.join('\n') + '\n' + after;
+              
+              fs.writeFileSync(readmePath, newContent);
+              
+              // Commit changes
+              const { execSync } = require('child_process');
+              execSync('git config user.name "github-actions[bot]"');
+              execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"');
+              execSync('git add README.md');
+              execSync('git commit -m "chore: update recent activity [skip ci]" || exit 0');
+              execSync('git push');
+            }
