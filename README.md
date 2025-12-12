@@ -311,18 +311,17 @@ devops:
 
 <div align="center">
 <a href="https://github.com/mukeshjena?tab=achievements">
-  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" width="100%"/>
+  <!-- Primary Trophy Service -->
+  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=algolia&row=1&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" width="100%" onerror="this.onerror=null; this.src='https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=darkhub&row=1&column=7';"/>
 </a>
 </div>
 
-<!-- Alternative Trophy Display (if above doesn't work) -->
-<!--
+<!-- Alternative: Using GitHub's native achievements badge -->
 <div align="center">
 <a href="https://github.com/mukeshjena?tab=achievements">
-  <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=darkhub&row=1&column=7" alt="GitHub Trophies" width="100%"/>
+  <img src="https://img.shields.io/badge/Achievements-Check%20Profile-blue?style=for-the-badge&logo=github&logoColor=white" alt="View Achievements"/>
 </a>
 </div>
--->
 
 </div>
 
