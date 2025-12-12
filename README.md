@@ -507,10 +507,74 @@ devops:
 
 <div align="center">
 
-## 📈 Contribution Metrics - Real-Time
+## 📈 Contribution Metrics - Real-Time Analytics
 
 <div align="center">
-<img src="https://github-contributor-stats.vercel.app/api?username=mukeshjena&limit=5&theme=react&combine_all_yearly_contributions=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10" alt="Contribution Stats" width="100%"/>
+
+### 🎯 Yearly Contribution Overview
+
+<img src="https://github-contributor-stats.vercel.app/api?username=mukeshjena&limit=5&theme=react&combine_all_yearly_contributions=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10" alt="Yearly Contribution Stats" width="100%"/>
+
+<br/>
+
+### 📊 Detailed Contribution Breakdown
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🔥 Contribution Heatmap
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=mukeshjena&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=10" alt="Contribution Heatmap" width="100%"/>
+
+</td>
+<td width="50%" valign="top">
+
+#### 📈 Contribution Graph
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mukeshjena&custom_title=Mukesh's%20Contribution%20Activity&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=58A6FF&area_color=1F6FEB&title_color=58A6FF&area=true&hide_border=true&radius=10" alt="Contribution Graph" width="100%"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 🎨 Advanced Metrics Dashboard
+
+<table>
+<tr>
+<td width="33.3%" valign="top" align="center">
+
+#### 📦 Repository Stats
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mukeshjena&theme=github_dark" alt="Repos per Language" width="100%"/>
+
+</td>
+<td width="33.3%" valign="top" align="center">
+
+#### 💻 Commit Activity
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mukeshjena&theme=github_dark" alt="Most Commit Language" width="100%"/>
+
+</td>
+<td width="33.3%" valign="top" align="center">
+
+#### ⏰ Productive Time
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mukeshjena&theme=github_dark&utcOffset=5.5" alt="Productive Time" width="100%"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 🏅 Contribution Achievements
+
+<div align="center">
+
+![Total Contributions](https://img.shields.io/badge/Total%20Contributions-500%2B-brightgreen?style=for-the-badge&logo=github&logoColor=white)
+![Current Streak](https://img.shields.io/badge/Current%20Streak-Active-success?style=for-the-badge&logo=github&logoColor=white)
+![Longest Streak](https://img.shields.io/badge/Longest%20Streak-Record-blue?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
+
 </div>
 
 </div>
