@@ -2,7 +2,7 @@ name: Update README Activity
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "*/30 * * * *"  # Run every 30 minutes
   workflow_dispatch:
 
 jobs:
@@ -14,7 +14,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Update README with recent activity
         uses: Readme-Workflows/recent-activity@v2.4.1
         env:
@@ -22,3 +24,5 @@ jobs:
         with:
           COMMIT_MESSAGE: "⚡ Update README with recent activity"
           MAX_LINES: 10
+          COMMITTER_USERNAME: github-actions[bot]
+          COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
