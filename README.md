@@ -224,61 +224,140 @@
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> What I'm Building
 
+<div align="center">
+
+### 🔥 Active Projects & Development
+
+<table>
+<tr>
+<td width="33.3%" valign="top">
+
+#### 🏗️ Backend APIs
+
+<div align="center">
+
+![.NET Core](https://img.shields.io/badge/.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-009688?style=flat-square&logo=api&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+
 </div>
 
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-### 🔥 Active Projects
-
-```yaml
-backend_apis:
-  - .NET Core Web APIs
-  - RESTful Services
-  - GraphQL Endpoints
-  - Microservices Architecture
-  
-frontend_apps:
-  - React Applications
-  - Next.js Projects
-  - Flutter Mobile Apps
-  - Progressive Web Apps
-  
-cloud_solutions:
-  - Azure Automation Scripts
-  - Infrastructure as Code
-  - CI/CD Pipelines
-  - Serverless Functions
-```
+- ✅ .NET Core Web APIs
+- ✅ RESTful Services
+- ✅ GraphQL Endpoints
+- ✅ Microservices Architecture
 
 </td>
-<td width="50%" valign="top">
+<td width="33.3%" valign="top">
 
-### 🌱 Learning & Exploring
+#### 🎨 Frontend & Mobile Apps
 
-```yaml
-advanced_topics:
-  - Clean Architecture Patterns
-  - Event-Driven Systems
-  - Message Queues (RabbitMQ, Azure Service Bus)
-  - CQRS with MediatR
-  
-performance:
-  - .NET Performance Tuning
-  - Database Optimization
-  - Caching Strategies (Redis)
-  - Load Balancing
-  
-devops:
-  - Kubernetes Deep Dive
-  - Docker Containerization
-  - Azure DevOps Mastery
-```
+<div align="center">
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+
+</div>
+
+- ✅ React Applications
+- ✅ Next.js Projects
+- ✅ Flutter Mobile Apps
+- ✅ Progressive Web Apps
+
+</td>
+<td width="33.3%" valign="top">
+
+#### ☁️ Cloud Solutions
+
+<div align="center">
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</div>
+
+- ✅ Azure Automation Scripts
+- ✅ Infrastructure as Code
+- ✅ CI/CD Pipelines
+- ✅ Serverless Functions
 
 </td>
 </tr>
 </table>
+
+<br/>
+
+### 🌱 Learning & Exploring
+
+<table>
+<tr>
+<td width="33.3%" valign="top">
+
+#### 🏛️ Advanced Topics
+
+<div align="center">
+
+![Architecture](https://img.shields.io/badge/Architecture-Clean%20Patterns-0078D4?style=flat-square&logo=code&logoColor=white)
+
+</div>
+
+- 📚 Clean Architecture Patterns
+- 📚 Event-Driven Systems
+- 📚 Message Queues (RabbitMQ, Azure Service Bus)
+- 📚 CQRS with MediatR
+
+</td>
+<td width="33.3%" valign="top">
+
+#### ⚡ Performance Optimization
+
+<div align="center">
+
+![Performance](https://img.shields.io/badge/Performance-Optimization-success?style=flat-square&logo=speedometer&logoColor=white)
+
+</div>
+
+- 📚 .NET Performance Tuning
+- 📚 Database Optimization
+- 📚 Caching Strategies (Redis)
+- 📚 Load Balancing
+
+</td>
+<td width="33.3%" valign="top">
+
+#### 🚀 DevOps Mastery
+
+<div align="center">
+
+![DevOps](https://img.shields.io/badge/DevOps-Mastery-blue?style=flat-square&logo=kubernetes&logoColor=white)
+
+</div>
+
+- 📚 Kubernetes Deep Dive
+- 📚 Docker Containerization
+- 📚 Azure DevOps Mastery
+- 📚 Infrastructure Automation
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 🎯 Project Focus Areas
+
+<div align="center">
+
+![Backend](https://img.shields.io/badge/Backend-APIs%20%26%20Services-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Frontend](https://img.shields.io/badge/Frontend-React%20%26%20Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud-Automation%20%26%20DevOps-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Full-Stack](https://img.shields.io/badge/Full--Stack-End%20to%20End-4CAF50?style=for-the-badge&logo=code&logoColor=white)
+
+</div>
+
+</div>
 
 <br/>
 
