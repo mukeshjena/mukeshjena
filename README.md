@@ -570,75 +570,160 @@ devops:
 
 ## 💼 Professional Expertise
 
+### 🎯 Backend Development
+**Building Robust & Scalable APIs**
+
+<div align="center">
+
+![.NET Core](https://img.shields.io/badge/.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</div>
+
 <table>
 <tr>
-<td width="33%" valign="top" align="center">
+<td width="50%" valign="top">
 
-### 🎯 Backend Development
-**Building Robust APIs**
-
-```csharp
-// .NET Core Web API
-[ApiController]
-[Route("api/[controller]")]
-public class UserController 
-{
-    // Clean Architecture
-    // CQRS Pattern
-    // Entity Framework
-}
-```
-
-✅ RESTful APIs  
-✅ Microservices  
-✅ Clean Architecture  
-✅ Entity Framework  
-✅ LINQ & Dapper
+**Core Technologies:**
+- ✅ RESTful APIs & GraphQL
+- ✅ Microservices Architecture
+- ✅ Clean Architecture Patterns
+- ✅ Entity Framework Core
+- ✅ LINQ & Dapper ORM
 
 </td>
-<td width="33%" valign="top" align="center">
+<td width="50%" valign="top">
+
+**Advanced Patterns:**
+- ✅ CQRS & Event Sourcing
+- ✅ Domain-Driven Design (DDD)
+- ✅ Repository Pattern
+- ✅ Dependency Injection
+- ✅ API Gateway Pattern
+
+</td>
+</tr>
+</table>
+
+<br/>
 
 ### ☁️ Cloud & DevOps
-**Automating Infrastructure**
+**Automating Infrastructure & CI/CD**
 
-```yaml
-# Azure Pipeline
-trigger: [main]
-pool:
-  vmImage: 'ubuntu-latest'
-steps:
-  - task: Docker@2
-  - task: Kubernetes@1
-  - task: AzureCLI@2
-```
+<div align="center">
 
-✅ Azure/AWS/GCP  
-✅ Docker & K8s  
-✅ CI/CD Pipelines  
-✅ Infrastructure as Code  
-✅ Cloud Automation
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Cloud Platforms:**
+- ✅ Microsoft Azure
+- ✅ Amazon Web Services (AWS)
+- ✅ Google Cloud Platform
+- ✅ Azure Functions & Lambda
+- ✅ Container Apps & App Service
 
 </td>
-<td width="33%" valign="top" align="center">
+<td width="50%" valign="top">
 
-### 🎨 Frontend & Mobile
-**Crafting User Experiences**
+**DevOps & Automation:**
+- ✅ CI/CD Pipelines (GitHub Actions, Azure DevOps)
+- ✅ Infrastructure as Code (Terraform, Bicep)
+- ✅ Docker & Kubernetes
+- ✅ Cloud Orchestration
+- ✅ Monitoring & Logging
 
-```javascript
-// React Component
-const App = () => {
-  // Redux State
-  // React Hooks
-  // Modern UI/UX
-  return <Beautiful UI />
-}
-```
+</td>
+</tr>
+</table>
 
-✅ React/Next.js  
-✅ Flutter Apps  
-✅ Responsive Design  
-✅ State Management  
-✅ Modern UI/UX
+<br/>
+
+### 🎨 Frontend & Mobile Development
+**Crafting Modern User Experiences**
+
+<div align="center">
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Web Technologies:**
+- ✅ React & Next.js
+- ✅ TypeScript & JavaScript
+- ✅ Vue.js & Angular
+- ✅ Tailwind CSS & Material-UI
+- ✅ Redux & Zustand State Management
+
+</td>
+<td width="50%" valign="top">
+
+**Mobile Development:**
+- ✅ Flutter & Dart
+- ✅ React Native
+- ✅ Cross-platform Apps
+- ✅ Responsive Design
+- ✅ Modern UI/UX Patterns
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 🗄️ Database & Caching
+**Data Management & Performance**
+
+<div align="center">
+
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**SQL Databases:**
+- ✅ SQL Server
+- ✅ PostgreSQL
+- ✅ MySQL
+- ✅ Entity Framework Core
+- ✅ Dapper & ADO.NET
+
+</td>
+<td width="50%" valign="top">
+
+**NoSQL & Caching:**
+- ✅ MongoDB
+- ✅ Redis Cache
+- ✅ CosmosDB
+- ✅ Database Optimization
+- ✅ Query Performance Tuning
 
 </td>
 </tr>
