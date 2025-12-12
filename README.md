@@ -1036,13 +1036,9 @@ gantt
 
 ## 📚 Latest Activity - Auto-Updated
 
-<!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed undefined commit(s) to [mukeshjena/mukeshjena](https://github.com/mukeshjena/mukeshjena)<br>
-2. ⬆️ Pushed undefined commit(s) to [mukeshjena/mukeshjena](https://github.com/mukeshjena/mukeshjena)<br>
-3. ⬆️ Pushed undefined commit(s) to [mukeshjena/mukeshjena](https://github.com/mukeshjena/mukeshjena)<br>
-4. ⬆️ Pushed undefined commit(s) to [mukeshjena/mukeshjena](https://github.com/mukeshjena/mukeshjena)<br>
-5. ⬆️ Pushed undefined commit(s) to [mukeshjena/mukeshjena](https://github.com/mukeshjena/mukeshjena)<br>
-<!--RECENT_ACTIVITY:end-->
+<!--START_SECTION:activity-->
+<!-- Activity will be automatically updated here -->
+<!--END_SECTION:activity-->
 
 </div>
 
