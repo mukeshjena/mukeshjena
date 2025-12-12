@@ -771,7 +771,9 @@
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=react&border=true&border_radius=10" alt="Random Dev Quote" width="100%"/>
+<a href="https://github.com/mukeshjena">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=react&border=true&border_radius=10" alt="Random Dev Quote" width="100%"/>
+</a>
 
 </div>
 
