@@ -507,74 +507,10 @@ devops:
 
 <div align="center">
 
-## 📈 Contribution Metrics - Real-Time Analytics
+## 📈 Contribution Metrics - Real-Time
 
 <div align="center">
-
-### 🎯 Yearly Contribution Overview
-
-<img src="https://github-contributor-stats.vercel.app/api?username=mukeshjena&limit=5&theme=react&combine_all_yearly_contributions=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10" alt="Yearly Contribution Stats" width="100%"/>
-
-<br/>
-
-### 📊 Detailed Contribution Breakdown
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔥 Contribution Heatmap
-<img src="https://streak-stats.demolab.com/?user=mukeshjena&theme=react&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF&sideLabels=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&border_radius=10" alt="Contribution Heatmap" width="100%"/>
-
-</td>
-<td width="50%" valign="top">
-
-#### 📈 Contribution Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mukeshjena&custom_title=Mukesh's%20Contribution%20Activity&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=58A6FF&area_color=1F6FEB&title_color=58A6FF&area=true&hide_border=true&radius=10" alt="Contribution Graph" width="100%"/>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-### 🎨 Advanced Metrics Dashboard
-
-<table>
-<tr>
-<td width="33.3%" valign="top" align="center">
-
-#### 📦 Repository Stats
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mukeshjena&theme=github_dark" alt="Repos per Language" width="100%"/>
-
-</td>
-<td width="33.3%" valign="top" align="center">
-
-#### 💻 Commit Activity
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mukeshjena&theme=github_dark" alt="Most Commit Language" width="100%"/>
-
-</td>
-<td width="33.3%" valign="top" align="center">
-
-#### ⏰ Productive Time
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mukeshjena&theme=github_dark&utcOffset=5.5" alt="Productive Time" width="100%"/>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-### 🏅 Contribution Achievements
-
-<div align="center">
-
-![Total Contributions](https://img.shields.io/badge/Total%20Contributions-500%2B-brightgreen?style=for-the-badge&logo=github&logoColor=white)
-![Current Streak](https://img.shields.io/badge/Current%20Streak-Active-success?style=for-the-badge&logo=github&logoColor=white)
-![Longest Streak](https://img.shields.io/badge/Longest%20Streak-Record-blue?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
-
+<img src="https://github-contributor-stats.vercel.app/api?username=mukeshjena&limit=5&theme=react&combine_all_yearly_contributions=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&border_radius=10" alt="Contribution Stats" width="100%"/>
 </div>
 
 </div>
@@ -775,27 +711,139 @@ gantt
 
 ## 🎖️ Achievements & Milestones
 
-```yaml
-repositories:
-  total: 34
-  stars_received: 3+
-  forks: Multiple
-  
-contributions:
-  commits: 500+
-  pull_requests: 10+
-  issues_resolved: 5+
-  
-expertise:
-  backend_apis: "50+ production APIs"
-  npm_packages: "Published utility packages"
-  cloud_automation: "Enterprise solutions"
-  full_stack_apps: "End-to-end applications"
-  
-open_source:
-  status: "Active Contributor"
-  focus: "Quality over quantity"
-```
+### 📊 Repository Achievements
+
+<div align="center">
+
+![Total Repositories](https://img.shields.io/badge/Repositories-34-blue?style=for-the-badge&logo=github&logoColor=white)
+![Stars Received](https://img.shields.io/badge/Stars-3%2B-yellow?style=for-the-badge&logo=github&logoColor=white)
+![Forks](https://img.shields.io/badge/Forks-Multiple-green?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
+
+<br/>
+
+### 💻 Contribution Achievements
+
+<table>
+<tr>
+<td width="33.3%" valign="top" align="center">
+
+#### 📝 Commits
+<div align="center">
+
+![Commits](https://img.shields.io/badge/Commits-500%2B-brightgreen?style=for-the-badge&logo=git&logoColor=white)
+
+**500+ Total Commits**  
+*Consistent contributions*
+
+</div>
+
+</td>
+<td width="33.3%" valign="top" align="center">
+
+#### 🔀 Pull Requests
+<div align="center">
+
+![Pull Requests](https://img.shields.io/badge/Pull%20Requests-10%2B-blue?style=for-the-badge&logo=github&logoColor=white)
+
+**10+ Pull Requests**  
+*Active collaboration*
+
+</div>
+
+</td>
+<td width="33.3%" valign="top" align="center">
+
+#### 🐛 Issues Resolved
+<div align="center">
+
+![Issues](https://img.shields.io/badge/Issues%20Resolved-5%2B-orange?style=for-the-badge&logo=github&logoColor=white)
+
+**5+ Issues Resolved**  
+*Problem solving*
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 🚀 Expertise Milestones
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🏗️ Backend & APIs
+<div align="center">
+
+![APIs](https://img.shields.io/badge/Production%20APIs-50%2B-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+
+**50+ Production APIs**  
+Built with .NET Core, Node.js, and modern architectures
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+#### 📦 NPM Packages
+<div align="center">
+
+![NPM](https://img.shields.io/badge/NPM%20Packages-Published-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+
+**Published Utility Packages**  
+Open source contributions to the community
+
+</div>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ☁️ Cloud Automation
+<div align="center">
+
+![Cloud](https://img.shields.io/badge/Cloud%20Solutions-Enterprise-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+
+**Enterprise Solutions**  
+Infrastructure as Code & Automation
+
+</div>
+
+</td>
+<td width="50%" valign="top">
+
+#### 🌐 Full-Stack Apps
+<div align="center">
+
+![Full-Stack](https://img.shields.io/badge/Full--Stack-Applications-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+
+**End-to-End Applications**  
+Complete solutions from frontend to backend
+
+</div>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 🌟 Open Source Status
+
+<div align="center">
+
+![Status](https://img.shields.io/badge/Status-Active%20Contributor-success?style=for-the-badge&logo=github&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-Quality%20over%20Quantity-blue?style=for-the-badge&logo=github&logoColor=white)
+
+**Active Contributor** | **Quality over Quantity**
+
+</div>
 
 </div>
 
