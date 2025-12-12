@@ -25,49 +25,76 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
-            const { data: events } = await github.rest.activity.listPublicEventsForUser({
-              username: process.env.GH_USERNAME,
-              per_page: 30
-            });
+            const username = process.env.GH_USERNAME;
+            
+            // Fetch public events
+            let events = [];
+            try {
+              const response = await github.rest.activity.listPublicEventsForUser({
+                username: username,
+                per_page: 50
+              });
+              events = response.data || [];
+            } catch (error) {
+              console.log('Error fetching events:', error.message);
+            }
             
             const activityLines = [];
             let count = 0;
             const maxLines = 10;
+            const seenRepos = new Set();
             
+            // Process PushEvents
             for (const event of events) {
               if (count >= maxLines) break;
               
-              if (event.type === 'PushEvent' && event.payload.commits && event.payload.commits.length > 0) {
+              if (event.type === 'PushEvent') {
                 const repo = event.repo.name;
-                const commits = event.payload.commits.length;
-                const commitMessages = event.payload.commits
-                  .slice(0, 3)
-                  .map(c => c.message.split('\n')[0])
-                  .join(', ');
-                const repoUrl = `https://github.com/${repo}`;
+                const repoKey = `${repo}-push`;
                 
-                activityLines.push(
-                  `${count + 1}. ⬆️ Pushed ${commits} commit(s) to [${repo}](${repoUrl})<br>   ${commitMessages.substring(0, 100)}${commitMessages.length > 100 ? '...' : ''}`
-                );
-                count++;
-              } else if (event.type === 'PullRequestEvent') {
+                // Avoid duplicates
+                if (seenRepos.has(repoKey)) continue;
+                seenRepos.add(repoKey);
+                
+                const commits = event.payload.commits || [];
+                if (commits.length > 0) {
+                  const commitMessages = commits
+                    .slice(0, 2)
+                    .map(c => {
+                      const msg = c.message || '';
+                      return msg.split('\n')[0].substring(0, 60);
+                    })
+                    .filter(m => m)
+                    .join(', ');
+                  
+                  const repoUrl = `https://github.com/${repo}`;
+                  const commitCount = commits.length;
+                  
+                  activityLines.push(
+                    `${count + 1}. ⬆️ Pushed ${commitCount} commit(s) to [${repo}](${repoUrl})${commitMessages ? '<br>   ' + commitMessages + (commitMessages.length > 60 ? '...' : '') : ''}`
+                  );
+                  count++;
+                }
+              } else if (event.type === 'PullRequestEvent' && !seenRepos.has(`${event.repo.name}-pr`)) {
                 const repo = event.repo.name;
+                seenRepos.add(`${repo}-pr`);
                 const action = event.payload.action;
                 const prTitle = event.payload.pull_request?.title || 'Pull Request';
                 const repoUrl = `https://github.com/${repo}`;
                 
                 activityLines.push(
-                  `${count + 1}. 🔀 ${action.charAt(0).toUpperCase() + action.slice(1)} pull request in [${repo}](${repoUrl})<br>   ${prTitle.substring(0, 100)}${prTitle.length > 100 ? '...' : ''}`
+                  `${count + 1}. 🔀 ${action.charAt(0).toUpperCase() + action.slice(1)} pull request in [${repo}](${repoUrl})<br>   ${prTitle.substring(0, 80)}${prTitle.length > 80 ? '...' : ''}`
                 );
                 count++;
-              } else if (event.type === 'IssuesEvent') {
+              } else if (event.type === 'IssuesEvent' && !seenRepos.has(`${event.repo.name}-issue`)) {
                 const repo = event.repo.name;
+                seenRepos.add(`${repo}-issue`);
                 const action = event.payload.action;
                 const issueTitle = event.payload.issue?.title || 'Issue';
                 const repoUrl = `https://github.com/${repo}`;
                 
                 activityLines.push(
-                  `${count + 1}. 🐛 ${action.charAt(0).toUpperCase() + action.slice(1)} issue in [${repo}](${repoUrl})<br>   ${issueTitle.substring(0, 100)}${issueTitle.length > 100 ? '...' : ''}`
+                  `${count + 1}. 🐛 ${action.charAt(0).toUpperCase() + action.slice(1)} issue in [${repo}](${repoUrl})<br>   ${issueTitle.substring(0, 80)}${issueTitle.length > 80 ? '...' : ''}`
                 );
                 count++;
               }
