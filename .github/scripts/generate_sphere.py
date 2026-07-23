@@ -97,20 +97,37 @@ def generate_svg():
         y_anim = ';'.join(y_vals)
         scale_anim = ';'.join(scale_vals)
         opacity_anim = ';'.join(opacity_vals)
+        color = COLORS[i]
         
         svg_content += f'<g>\n'
+        # Animate opacity
+        svg_content += f'  <animate attributeName="opacity" values="{opacity_anim}" dur="10s" repeatCount="indefinite" />\n'
         
-        # We animate the transform attribute: translate and scale
-        transform_vals = ';'.join([f"translate({x},{y}) scale({s})" for x, y, s in zip(x_vals, y_vals, scale_vals)])
+        # Outer group for translation
+        svg_content += f'  <g>\n'
+        svg_content += f'    <animateTransform attributeName="transform" type="translate" values="{x_anim}" dur="10s" repeatCount="indefinite" />\n'
         
-        svg_content += f'<animateTransform attributeName="transform" type="translate" values="{x_anim}" dur="10s" repeatCount="indefinite" additive="sum"/>\n'
-        # animateTransform doesn't easily support multiple simultaneous transforms without nesting.
-        # Let's use nesting!
+        # Inner group for translation Y
+        svg_content += f'    <g>\n'
+        svg_content += f'      <animateTransform attributeName="transform" type="translate" values="{y_anim}" dur="10s" repeatCount="indefinite" additive="sum"/>\n'
+        
+        # Innermost group for scale
+        svg_content += f'      <g>\n'
+        svg_content += f'        <animateTransform attributeName="transform" type="scale" values="{scale_anim}" dur="10s" repeatCount="indefinite" additive="sum"/>\n'
+        
+        # The icon
+        svg_content += f'        <svg x="-12" y="-12" width="24" height="24" viewBox="0 0 24 24" fill="#{color}">\n'
+        svg_content += f'          <path d="{paths[i]}"/>\n'
+        svg_content += f'        </svg>\n'
+        
+        svg_content += f'      </g>\n'
+        svg_content += f'    </g>\n'
+        svg_content += f'  </g>\n'
         svg_content += f'</g>\n'
-        
+
     svg_content += '</svg>'
     
-    with open('sphere.svg', 'w') as f:
+    with open('tech-stack-sphere.svg', 'w') as f:
         f.write(svg_content)
 
 if __name__ == '__main__':
