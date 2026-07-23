@@ -11,8 +11,12 @@
 name: Update README Activity
 
 on:
+  push:
+    branches:
+      - main
+      - master
   schedule:
-    - cron: "*/30 * * * *"   # Every 30 minutes
+    - cron: "*/5 * * * *"   # Every 5 minutes
   workflow_dispatch:          # Manual trigger
 
 jobs:
