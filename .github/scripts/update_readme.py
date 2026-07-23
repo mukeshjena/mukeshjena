@@ -34,6 +34,9 @@ def fetch_repos():
         page += 1
     return repos
 
+def fetch_starred():
+    url = f"https://api.github.com/users/{USERNAME}/starred?per_page=4"
+    return fetch_json(url) or []
 
 def fetch_user():
     url = f"https://api.github.com/users/{USERNAME}"
@@ -46,6 +49,29 @@ def generate_stats_markdown(user_data, repos):
     
     return f"<i>{public_repos} public repos • {stars} total stars • {followers} followers</i>"
 
+def generate_building_markdown(repos):
+    active_repos = [r for r in repos if not r.get("fork") and r.get("name") != USERNAME][:4]
+    
+    md = ""
+    for repo in active_repos:
+        name = repo.get("name")
+        desc = repo.get("description") or "No description"
+        url = repo.get("html_url")
+        md += f"- 💻 **[{name}]({url})** — {desc}\n"
+    return md
+
+def generate_learning_markdown(starred):
+    md = ""
+    for repo in starred:
+        name = repo.get("name")
+        desc = repo.get("description") or "No description"
+        url = repo.get("html_url")
+        md += f"- 📚 **[{name}]({url})** — {desc}\n"
+    
+    # Fallback to static if no starred repos
+    if not md:
+        md = "- 🏛️ Distributed Systems & Event-Driven Arch\n- ⚡ Advanced .NET Performance\n- ☁️ Azure Cloud-Native Applications\n- 🐳 Kubernetes at Scale\n"
+    return md
 
 def generate_stack_markdown(repos):
     langs = defaultdict(int)
@@ -79,11 +105,13 @@ def generate_stack_markdown(repos):
         md += f"![{lang}](https://img.shields.io/badge/{encoded_lang}-{color}?style=flat-square&logo={logo}&logoColor=white) "
     return md + "\n"
 
-def update_readme(stats_md, stack_md):
+def update_readme(stats_md, building_md, learning_md, stack_md):
     with open("README.md", "r", encoding="utf-8") as f:
         content = f.read()
         
     content = re.sub(r"(<!--STATS:start-->).*?(<!--STATS:end-->)", f"\\1\n{stats_md}\n\\2", content, flags=re.DOTALL)
+    content = re.sub(r"(<!--BUILDING:start-->).*?(<!--BUILDING:end-->)", f"\\1\n{building_md}\n\\2", content, flags=re.DOTALL)
+    content = re.sub(r"(<!--LEARNING:start-->).*?(<!--LEARNING:end-->)", f"\\1\n{learning_md}\n\\2", content, flags=re.DOTALL)
     content = re.sub(r"(<!--STACK:start-->).*?(<!--STACK:end-->)", f"\\1\n{stack_md}\n\\2", content, flags=re.DOTALL)
     
     with open("README.md", "w", encoding="utf-8") as f:
@@ -93,11 +121,14 @@ if __name__ == "__main__":
     print("Fetching data...")
     user = fetch_user()
     repos = fetch_repos()
+    starred = fetch_starred()
     
     print("Generating markdown...")
     stats_md = generate_stats_markdown(user, repos)
+    building_md = generate_building_markdown(repos)
+    learning_md = generate_learning_markdown(starred)
     stack_md = generate_stack_markdown(repos)
     
     print("Updating README.md...")
-    update_readme(stats_md, stack_md)
+    update_readme(stats_md, building_md, learning_md, stack_md)
     print("Done!")

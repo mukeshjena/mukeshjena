@@ -96,26 +96,36 @@
 
 <br/>
 
-<!-- ═══════════════════ 📊 GITHUB METRICS ═══════════════════ -->
+<!-- ═══════════════════ 📊 GITHUB STATS ═══════════════════ -->
 
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/github-metrics.svg" alt="GitHub Metrics" width="100%">
+  <img width="60%" src="https://streak-stats.demolab.com?user=mukeshjena&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak"/>
 </div>
 
 <br/>
 
-<!-- ═══════════════════ 🐍 CONTRIBUTION SNAKE ═══════════════════ -->
+<!-- ═══════════════════ 🧊 3D CONTRIBUTION ═══════════════════ -->
 
-<h2 align="center">🐍 Contribution Activity</h2>
+<h2 align="center">🧊 3D Contribution Calendar</h2>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/dist/github-contribution-grid-snake-dark.svg?palette=github-dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/dist/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/dist/github-contribution-grid-snake.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
+    <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%">
   </picture>
+</div>
+
+<br/>
+
+<!-- ═══════════════════ 📈 ACTIVITY GRAPH ═══════════════════ -->
+
+<h2 align="center">📈 Contribution Graph</h2>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mukeshjena&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF&hide_border=true" alt="Activity Graph"/>
 </div>
 
 <br/>
