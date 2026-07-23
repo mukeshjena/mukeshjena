@@ -38,28 +38,7 @@
 
 <p align="center"><i>Full-stack developer shipping enterprise-grade backends and modern front-ends.<br/>35 public repos • 50+ production APIs • Published NPM packages</i></p>
 
-<table align="center">
-<tr>
-<td valign="top" width="50%">
 
-**🔭 Currently Building**
-- 🎬 **Filmify** — Movie Discovery Platform
-- 📰 **News Aggregator** — Real-time News
-- 🤖 **AI Chat Tooling** — Intelligent Assistants
-- ☁️ **Cloud Automation** — Infrastructure as Code
-
-</td>
-<td valign="top" width="50%">
-
-**📚 Currently Learning**
-- 🏛️ Distributed Systems & Event-Driven Arch
-- ⚡ Advanced .NET Performance
-- ☁️ Azure Cloud-Native Applications
-- 🐳 Kubernetes at Scale
-
-</td>
-</tr>
-</table>
 
 <br/>
 
