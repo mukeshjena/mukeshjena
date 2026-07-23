@@ -46,27 +46,7 @@
 
 <br/>
 
-<!-- ═══════════════════ 🔭 WHAT I'M UP TO ═══════════════════ -->
 
-### 🔭 Currently Building
-<!--BUILDING:start-->
-- 💻 **[bhagavad_gita_odia](https://github.com/mukeshjena/bhagavad_gita_odia)** — No description
-- 💻 **[void-browser](https://github.com/mukeshjena/void-browser)** — Ultra-lightweight privacy browser for Android built with Flutter
-- 💻 **[mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio)** — No description
-- 💻 **[lucid-alerts](https://github.com/mukeshjena/lucid-alerts)** — A modern, lightweight, and highly customizable JavaScript library for alerts and notifications - an alternative to SweetAlert2 and Notyf
-
-<!--BUILDING:end-->
-
-<br/>
-
-### 📚 Currently Learning
-<!--LEARNING:start-->
-- 📚 **[ag-kit](https://github.com/vudovn/ag-kit)** — No description
-- 📚 **[awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)** — A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
-
-<!--LEARNING:end-->
-
-<br/>
 
 <!-- ═══════════════════ 🛠️ TECH STACK ═══════════════════ -->
 
