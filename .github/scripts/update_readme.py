@@ -88,7 +88,6 @@ def update_readme(stats_md, stack_md):
         content = f.read()
         
     content = re.sub(r"(<!--STATS:start-->).*?(<!--STATS:end-->)", f"\\1\n{stats_md}\n\\2", content, flags=re.DOTALL)
-    content = re.sub(r"(<!--STACK:start-->).*?(<!--STACK:end-->)", f"\\1\n{stack_md}\n\\2", content, flags=re.DOTALL)
     
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(content)
