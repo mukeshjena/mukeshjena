@@ -101,16 +101,16 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Wrap recent activity table in center div` | Jul 23 |
 | 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Fix activity workflow not picking up unlinked email commits` | Jul 23 |
 | 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Update activity workflow triggers to run as frequently as...` | Jul 23 |
-| 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Update profile-3d-contrib action to latest and fix image ...` | Jul 23 |
-| 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Remove Currently Building and Learning sections and logic` | Jul 23 |
 | 🔨 | [bhagavad_gita_odia](https://github.com/mukeshjena/bhagavad_gita_odia) | `feat: initial production release of Bhagavad Gita Odia wi...` | Jul 15 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Update to Vex Fast Privacy Browser v2.0.1 (Version Code 11)` | Dec 15 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `chore: Update to Gradle 8.11.1, AGP 8.10.0, upgrade packa...` | Dec 11 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Fix 16 KB page size support: Update Gradle config and pac...` | Dec 10 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Performance optimizations: Fix double-loading, instant UR...` | Dec 5 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Performance optimizations: Fix double-loading, instant UR...` | Dec 2 |
+| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `update the privacy policy of vex browser` | Dec 15 |
 <!--RECENT_ACTIVITY:end-->
 
 </div>
