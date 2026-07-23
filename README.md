@@ -57,7 +57,7 @@
 <div align="center">
 
 <!--STACK:start-->
-  <img src="tech-stack-sphere.svg" alt="3D Tech Stack Sphere" width="100%">
+  <img src="https://github-stack-sphere.vercel.app/stack.svg?icons=html5,css3,javascript,typescript,react,nodedotjs,nextdotjs,python,c,cplusplus,java,kotlin,php,dart,mongodb,mysql,postgresql,tailwindcss,bootstrap,git,github,firebase,supabase,redis,docker,androidstudio,vercel,netlify,visualstudiocode,figma&theme=auto" alt="3D Tech Stack Sphere" width="100%">
 <!--STACK:end-->
 
 </div>
