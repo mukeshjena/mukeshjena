@@ -95,6 +95,8 @@
 
 <h2 align="center">⚡ Recent GitHub Activity</h2>
 
+<div align="center">
+
 <!--RECENT_ACTIVITY:start-->
 
 | 🔹 | Repository | Commit | Date |
@@ -110,6 +112,8 @@
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Performance optimizations: Fix double-loading, instant UR...` | Dec 5 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Performance optimizations: Fix double-loading, instant UR...` | Dec 2 |
 <!--RECENT_ACTIVITY:end-->
+
+</div>
 
 <br/>
 
