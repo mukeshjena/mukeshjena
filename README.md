@@ -15,9 +15,9 @@
 <!-- ═══════════════════ 🐍 SNAKE ═══════════════════ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/output/github-contribution-grid-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mukeshjena/mukeshjena/raw/output/dist/github-contribution-grid-snake-dark.svg?palette=github-dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/mukeshjena/mukeshjena/raw/output/dist/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://github.com/mukeshjena/mukeshjena/raw/output/dist/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
 </div>
@@ -48,32 +48,21 @@
 
 <!-- ═══════════════════ 🔭 WHAT I'M UP TO ═══════════════════ -->
 
-<table align="center">
-<tr>
-<td valign="top" width="50%">
-
-**🔭 Currently Building**
+### 🔭 Currently Building
 <!--BUILDING:start-->
 - 💻 **[bhagavad_gita_odia](https://github.com/mukeshjena/bhagavad_gita_odia)** — No description
 - 💻 **[void-browser](https://github.com/mukeshjena/void-browser)** — Ultra-lightweight privacy browser for Android built with Flutter
 - 💻 **[mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio)** — No description
 - 💻 **[lucid-alerts](https://github.com/mukeshjena/lucid-alerts)** — A modern, lightweight, and highly customizable JavaScript library for alerts and notifications - an alternative to SweetAlert2 and Notyf
-
 <!--BUILDING:end-->
 
-</td>
-<td valign="top" width="50%">
+<br/>
 
-**📚 Currently Learning**
+### 📚 Currently Learning
 <!--LEARNING:start-->
 - 📚 **[ag-kit](https://github.com/vudovn/ag-kit)** — No description
 - 📚 **[awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)** — A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
-
 <!--LEARNING:end-->
-
-</td>
-</tr>
-</table>
 
 <br/>
 
@@ -96,12 +85,12 @@
 
 <br/>
 
-<!-- ═══════════════════ 📊 GITHUB STATS ═══════════════════ -->
+<!-- ═══════════════════ 📊 GITHUB METRICS ═══════════════════ -->
 
-<h2 align="center">📊 GitHub Analytics</h2>
+<h2 align="center">📊 Premium GitHub Analytics</h2>
 
 <div align="center">
-  <img width="60%" src="https://streak-stats.demolab.com?user=mukeshjena&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak"/>
+  <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/github-metrics.svg" alt="GitHub Metrics" width="100%">
 </div>
 
 <br/>
@@ -112,20 +101,10 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
-    <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mukeshjena/mukeshjena/raw/main/profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/mukeshjena/mukeshjena/raw/main/profile-3d-contrib/profile-season-animate.svg">
+    <img alt="3D Contribution Calendar" src="https://github.com/mukeshjena/mukeshjena/raw/main/profile-3d-contrib/profile-season-animate.svg" width="100%">
   </picture>
-</div>
-
-<br/>
-
-<!-- ═══════════════════ 📈 ACTIVITY GRAPH ═══════════════════ -->
-
-<h2 align="center">📈 Contribution Graph</h2>
-
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mukeshjena&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF&hide_border=true" alt="Activity Graph"/>
 </div>
 
 <br/>
