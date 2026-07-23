@@ -98,9 +98,9 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `feat: migrate to github-stack-sphere vercel app for 3d sp...` | Jul 23 |
 | 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `fix: render SVG icons correctly in tech-stack-sphere.svg` | Jul 23 |
 | 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `fix: prevent update_readme.py from overwriting the 3D sphere` | Jul 23 |
-| 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `feat: add 3D spinning tech stack sphere and generator wor...` | Jul 23 |
 | 🔨 | [bhagavad_gita_odia](https://github.com/mukeshjena/bhagavad_gita_odia) | `feat: initial production release of Bhagavad Gita Odia wi...` | Jul 15 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Update to Vex Fast Privacy Browser v2.0.1 (Version Code 11)` | Dec 15 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `chore: Update to Gradle 8.11.1, AGP 8.10.0, upgrade packa...` | Dec 11 |
