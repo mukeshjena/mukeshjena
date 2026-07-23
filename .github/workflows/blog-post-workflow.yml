@@ -1,0 +1,16 @@
+name: Latest Blog Post Workflow
+on:
+  schedule:
+    - cron: '0 * * * *' # Run hourly
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          # Replace this with your actual RSS feed URL (e.g., https://dev.to/feed/your_username)
+          feed_list: "https://dev.to/feed/mukeshjena" 

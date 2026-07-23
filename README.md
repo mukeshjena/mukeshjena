@@ -75,6 +75,68 @@
 <br/>
 
 
+<!-- ═══════════════════ 🏆 TROPHIES ═══════════════════ -->
+
+<h2 align="center">🏆 GitHub Trophies</h2>
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=onedark&margin-w=15&margin-h=15&no-frame=true" alt="mukeshjena trophies"/>
+  </a>
+</div>
+
+<br/>
+
+<!-- ═══════════════════ 📈 ACTIVITY GRAPH ═══════════════════ -->
+
+<h2 align="center">📈 Contribution Graph</h2>
+
+<div align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=mukeshjena&theme=react-dark&hide_border=true&area=true" alt="mukeshjena's activity graph"/>
+  </a>
+</div>
+
+<br/>
+
+<!-- ═══════════════════ ⏱️ WAKATIME ═══════════════════ -->
+
+<h2 align="center">⏱️ Coding Analytics</h2>
+
+<div align="center">
+
+<!--START_SECTION:waka-->
+*WakaTime stats will appear here once the workflow runs!*
+<!--END_SECTION:waka-->
+
+</div>
+
+<br/>
+
+<!-- ═══════════════════ 🎵 SPOTIFY ═══════════════════ -->
+
+<h2 align="center">🎵 Now Playing</h2>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/spotify.svg" alt="Spotify Now Playing" width="400">
+</div>
+
+<br/>
+
+<!-- ═══════════════════ 📰 LATEST POSTS ═══════════════════ -->
+
+<h2 align="center">📰 Latest Articles</h2>
+
+<div align="center">
+
+<!-- BLOG-POST-LIST:START -->
+*Stay tuned for new articles!*
+<!-- BLOG-POST-LIST:END -->
+
+</div>
+
+<br/>
+
 <!-- ═══════════════════ ⚡ RECENT ACTIVITY ═══════════════════ -->
 
 <h2 align="center">⚡ Recent GitHub Activity</h2>
