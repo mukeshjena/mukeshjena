@@ -76,8 +76,8 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Refactor README layout and image size` | Jul 23 |
 | 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Refactor README.md for improved layout` | Jul 23 |
-| 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Remove trophies section from README` | Jul 23 |
 | 🔨 | [bhagavad_gita_odia](https://github.com/mukeshjena/bhagavad_gita_odia) | `feat: initial production release of Bhagavad Gita Odia wi...` | Jul 15 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Update to Vex Fast Privacy Browser v2.0.1 (Version Code 11)` | Dec 15 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `chore: Update to Gradle 8.11.1, AGP 8.10.0, upgrade packa...` | Dec 11 |
