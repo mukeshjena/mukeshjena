@@ -171,7 +171,19 @@
 <h2 align="center">⚡ Recent GitHub Activity</h2>
 
 <!--RECENT_ACTIVITY:start-->
-*🔄 Activity will be auto-updated by GitHub Actions...*
+
+| 🔹 | Repository | Commit | Date |
+|:--:|:-----------|:-------|:----:|
+| 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Delete README.md` | Jul 21 |
+| 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Update README.md` | Jul 21 |
+| 🔨 | [mukeshjena](https://github.com/mukeshjena/mukeshjena) | `Update README.md` | Dec 12 |
+| 🔨 | [lucid-alerts](https://github.com/mukeshjena/lucid-alerts) | `Release v1.1.3: Updated documentation, version references...` | Sep 24 |
+| 🔨 | [lucid-alerts](https://github.com/mukeshjena/lucid-alerts) | `1.1.3` | Sep 24 |
+| 🔨 | [lucid-alerts](https://github.com/mukeshjena/lucid-alerts) | `1.1.2` | Sep 24 |
+| 🔨 | [fashion-shop](https://github.com/mukeshjena/fashion-shop) | `Update App.tsx` | Sep 15 |
+| 🔨 | [fashion-shop](https://github.com/mukeshjena/fashion-shop) | `Update App.tsx` | Sep 15 |
+| 🔨 | [fashion-shop](https://github.com/mukeshjena/fashion-shop) | `Update App.tsx` | Sep 15 |
+| 🔨 | [Filmify](https://github.com/mukeshjena/Filmify) | `Update api.dart` | Sep 28 |
 <!--RECENT_ACTIVITY:end-->
 
 <br/>
