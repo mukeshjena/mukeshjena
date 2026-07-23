@@ -1,12 +1,23 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# 🐍 Generate GitHub Contribution Snake Animation
+# ═══════════════════════════════════════════════════════════════════════════
+# Generates SVG snake animations from the GitHub contribution graph
+# and pushes them to the 'output' branch for the README to reference.
+#
+# Runs: Every 12 hours + on push to main + manual trigger
+# Output: github-contribution-grid-snake.svg (light)
+#         github-contribution-grid-snake-dark.svg (dark)
+# ═══════════════════════════════════════════════════════════════════════════
+
 name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"   # Every 12 hours
+  workflow_dispatch:          # Manual trigger
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -17,9 +28,9 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Generate github-contribution-grid-snake.svg
+      - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: mukeshjena
@@ -27,8 +38,8 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push github-contribution-grid-snake.svg to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist

@@ -1,22 +1,33 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# 📰 Update README with Recent GitHub Activity
+# ═══════════════════════════════════════════════════════════════════════════
+# Fetches recent commits across your repos and injects a formatted
+# activity feed into README.md between the RECENT_ACTIVITY markers.
+#
+# Runs: Every 30 minutes + manual trigger
+# Markers: <!--RECENT_ACTIVITY:start--> / <!--RECENT_ACTIVITY:end-->
+# ═══════════════════════════════════════════════════════════════════════════
+
 name: Update README Activity
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # Run every 30 minutes
-  workflow_dispatch:
+    - cron: "*/30 * * * *"   # Every 30 minutes
+  workflow_dispatch:          # Manual trigger
 
 jobs:
-  build:
+  update-activity:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Update README with recent activity
         uses: actions/github-script@v7
         env:
@@ -26,98 +37,128 @@ jobs:
           script: |
             const fs = require('fs');
             const username = process.env.GH_USERNAME;
-            
+
             const activityLines = [];
-            let count = 0;
             const maxLines = 10;
-            const seenRepos = new Set();
-            
+            const seenItems = new Set();
+
             try {
-              // Fetch user's repositories
+              // ── Fetch recently updated repos ──────────────────────────
               const reposResponse = await github.rest.repos.listForUser({
                 username: username,
                 sort: 'updated',
-                per_page: 10,
+                per_page: 15,
                 type: 'owner'
               });
-              
+
               const repos = reposResponse.data || [];
-              
-              // Fetch recent commits from each repository
+
+              // ── Gather recent commits from each repo ──────────────────
               for (const repo of repos) {
-                if (count >= maxLines) break;
-                
+                if (activityLines.length >= maxLines) break;
+
                 try {
                   const commitsResponse = await github.rest.repos.listCommits({
                     owner: username,
                     repo: repo.name,
                     author: username,
-                    per_page: 1
+                    per_page: 3
                   });
-                  
-                  if (commitsResponse.data && commitsResponse.data.length > 0) {
-                    const commit = commitsResponse.data[0];
-                    const commitMessage = commit.commit.message.split('\n')[0].substring(0, 80);
-                    const repoUrl = `https://github.com/${username}/${repo.name}`;
-                    const commitUrl = commit.html_url;
+
+                  const commits = commitsResponse.data || [];
+
+                  for (const commit of commits) {
+                    if (activityLines.length >= maxLines) break;
+
+                    const sha = commit.sha.substring(0, 7);
+                    const key = `${repo.name}-${sha}`;
+
+                    if (seenItems.has(key)) continue;
+                    seenItems.add(key);
+
+                    const message = commit.commit.message.split('\n')[0];
+                    // Truncate long messages
+                    const truncatedMsg = message.length > 60
+                      ? message.substring(0, 57) + '...'
+                      : message;
+
                     const date = new Date(commit.commit.author.date);
-                    const timeAgo = getTimeAgo(date);
-                    
-                    if (!seenRepos.has(repo.name)) {
-                      activityLines.push(
-                        `${count + 1}. ⬆️ Pushed commit to [${repo.name}](${repoUrl})<br>   ${commitMessage}${commitMessage.length > 80 ? '...' : ''} (${timeAgo})`
-                      );
-                      seenRepos.add(repo.name);
-                      count++;
-                    }
+                    const dateStr = date.toLocaleDateString('en-US', {
+                      month: 'short',
+                      day: 'numeric'
+                    });
+
+                    activityLines.push(
+                      `| 🔨 | [${repo.name}](https://github.com/${username}/${repo.name}) | \`${truncatedMsg}\` | ${dateStr} |`
+                    );
                   }
-                } catch (error) {
-                  // Skip repos with no access or errors
+                } catch (repoError) {
+                  // Skip repos where we can't fetch commits (e.g. forks)
+                  console.log(`Skipping ${repo.name}: ${repoError.message}`);
                   continue;
                 }
               }
+
+              // ── Build the activity table ──────────────────────────────
+              let activityContent;
+
+              if (activityLines.length === 0) {
+                activityContent = '\n*🔄 No recent activity found. Check back soon!*\n';
+              } else {
+                const tableHeader = [
+                  '',
+                  '| 🔹 | Repository | Commit | Date |',
+                  '|:--:|:-----------|:-------|:----:|'
+                ].join('\n');
+
+                activityContent = '\n' + tableHeader + '\n' + activityLines.join('\n') + '\n';
+              }
+
+              // ── Read and update README.md ─────────────────────────────
+              const readmePath = 'README.md';
+
+              if (!fs.existsSync(readmePath)) {
+                console.log('README.md not found, skipping update.');
+                return;
+              }
+
+              const readme = fs.readFileSync(readmePath, 'utf8');
+
+              const startMarker = '<!--RECENT_ACTIVITY:start-->';
+              const endMarker = '<!--RECENT_ACTIVITY:end-->';
+
+              const startIdx = readme.indexOf(startMarker);
+              const endIdx = readme.indexOf(endMarker);
+
+              if (startIdx === -1 || endIdx === -1) {
+                console.log('Activity markers not found in README.md, skipping.');
+                return;
+              }
+
+              const before = readme.substring(0, startIdx + startMarker.length);
+              const after = readme.substring(endIdx);
+
+              const newReadme = before + activityContent + after;
+
+              // ── Only write if content actually changed ────────────────
+              if (newReadme === readme) {
+                console.log('No changes detected, skipping commit.');
+                return;
+              }
+
+              fs.writeFileSync(readmePath, newReadme, 'utf8');
+              console.log('README.md updated with recent activity.');
+
             } catch (error) {
-              console.log('Error fetching repositories:', error.message);
+              console.error('Error updating activity:', error.message);
+              core.setFailed(error.message);
             }
-            
-            function getTimeAgo(date) {
-              const seconds = Math.floor((new Date() - date) / 1000);
-              if (seconds < 60) return 'just now';
-              const minutes = Math.floor(seconds / 60);
-              if (minutes < 60) return `${minutes}m ago`;
-              const hours = Math.floor(minutes / 60);
-              if (hours < 24) return `${hours}h ago`;
-              const days = Math.floor(hours / 24);
-              if (days < 7) return `${days}d ago`;
-              const weeks = Math.floor(days / 7);
-              return `${weeks}w ago`;
-            }
-            
-            if (activityLines.length === 0) {
-              activityLines.push('<!-- No recent activity found -->');
-            }
-            
-            const readmePath = 'README.md';
-            let readmeContent = fs.readFileSync(readmePath, 'utf8');
-            
-            const startMarker = '<!--RECENT_ACTIVITY:start-->';
-            const endMarker = '<!--RECENT_ACTIVITY:end-->';
-            
-            const startIndex = readmeContent.indexOf(startMarker);
-            const endIndex = readmeContent.indexOf(endMarker);
-            
-            if (startIndex !== -1 && endIndex !== -1) {
-              const before = readmeContent.substring(0, startIndex + startMarker.length);
-              const after = readmeContent.substring(endIndex);
-              const newContent = before + '\n' + activityLines.join('\n') + '\n' + after;
-              
-              fs.writeFileSync(readmePath, newContent);
-              
-              // Commit changes
-              const { execSync } = require('child_process');
-              execSync('git config user.name "github-actions[bot]"');
-              execSync('git config user.email "41898282+github-actions[bot]@users.noreply.github.com"');
-              execSync('git add README.md');
-              execSync('git commit -m "chore: update recent activity [skip ci]" || exit 0');
-              execSync('git push');
-            }
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: update recent activity [skip ci]"
+          git push
