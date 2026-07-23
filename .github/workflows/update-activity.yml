@@ -65,14 +65,18 @@ jobs:
                   const commitsResponse = await github.rest.repos.listCommits({
                     owner: username,
                     repo: repo.name,
-                    author: username,
-                    per_page: 3
+                    per_page: 5
                   });
 
                   const commits = commitsResponse.data || [];
 
                   for (const commit of commits) {
                     if (activityLines.length >= maxLines) break;
+
+                    // Filter out bot commits
+                    const authorName = commit.commit.author.name || '';
+                    if (authorName.toLowerCase().includes('bot') || authorName.includes('github-actions')) continue;
+                    if (commit.author && commit.author.type === 'Bot') continue;
 
                     const sha = commit.sha.substring(0, 7);
                     const key = `${repo.name}-${sha}`;
