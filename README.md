@@ -57,7 +57,7 @@
 <!-- ═══════════════════ 📊 GITHUB METRICS ═══════════════════ -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/github-metrics.svg" alt="GitHub Metrics" width="80%">
+  <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/github-metrics.svg" alt="GitHub Metrics" width="100%">
 </div>
 
 <!-- ═══════════════════ 📈 ACTIVITY GRAPH ═══════════════════ -->
