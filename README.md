@@ -22,8 +22,6 @@
 
 </div>
 
-<br/>
-
 <!-- ═══════════════════ 👋 ABOUT ME ═══════════════════ -->
 
 <h2 align="center">
@@ -42,12 +40,6 @@
 <!--STATS:end-->
 </i></p>
 
-
-
-<br/>
-
-
-
 <!-- ═══════════════════ 🛠️ TECH STACK ═══════════════════ -->
 
 <h2 align="center">
@@ -65,7 +57,7 @@
 <!-- ═══════════════════ 📊 GITHUB METRICS ═══════════════════ -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/github-metrics.svg" alt="GitHub Metrics" width="70%">
+  <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/github-metrics.svg" alt="GitHub Metrics" width="80%">
 </div>
 
 <!-- ═══════════════════ 📈 ACTIVITY GRAPH ═══════════════════ -->
