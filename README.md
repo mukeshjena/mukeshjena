@@ -92,7 +92,7 @@
 <h2 align="center">📊 Premium GitHub Analytics</h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/github-metrics.svg" alt="GitHub Metrics" width="100%">
+  <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/github-metrics.svg" alt="GitHub Metrics" width="85%">
 </div>
 
 <br/>

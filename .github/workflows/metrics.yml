@@ -19,16 +19,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           filename: github-metrics.svg
           config_timezone: Asia/Kolkata
-          base: header, activity, community, repositories, metadata
+          config_theme: tokyonight
+          config_display: large
+          base: header, activity, community, repositories
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_limit: 8
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_stargazers: yes
-          config_order: base.header, isocalendar, languages, habits, stargazers
+          config_order: base.header, isocalendar, languages
