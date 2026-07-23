@@ -36,9 +36,44 @@
   <img src="https://img.shields.io/badge/✅_Open_to_Work-2ea44f?style=flat-square" alt="Status"/>
 </p>
 
-<p align="center"><i>Full-stack developer shipping enterprise-grade backends and modern front-ends.<br/>35 public repos • 50+ production APIs • Published NPM packages</i></p>
+<p align="center"><i>Full-stack developer shipping enterprise-grade backends and modern front-ends.<br/>
+<!--STATS:start-->
+<i>35 public repos • 3 total stars • 0 followers</i>
+<!--STATS:end-->
+</i></p>
 
 
+
+<br/>
+
+<!-- ═══════════════════ 🔭 WHAT I'M UP TO ═══════════════════ -->
+
+<table align="center">
+<tr>
+<td valign="top" width="50%">
+
+**🔭 Currently Building**
+<!--BUILDING:start-->
+- 💻 **[bhagavad_gita_odia](https://github.com/mukeshjena/bhagavad_gita_odia)** — No description
+- 💻 **[void-browser](https://github.com/mukeshjena/void-browser)** — Ultra-lightweight privacy browser for Android built with Flutter
+- 💻 **[mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio)** — No description
+- 💻 **[lucid-alerts](https://github.com/mukeshjena/lucid-alerts)** — A modern, lightweight, and highly customizable JavaScript library for alerts and notifications - an alternative to SweetAlert2 and Notyf
+
+<!--BUILDING:end-->
+
+</td>
+<td valign="top" width="50%">
+
+**📚 Currently Learning**
+<!--LEARNING:start-->
+- 📚 **[ag-kit](https://github.com/vudovn/ag-kit)** — No description
+- 📚 **[awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)** — A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python
+
+<!--LEARNING:end-->
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -50,47 +85,12 @@
 
 <div align="center">
 
-**Languages**
+<!--STACK:start-->
+**Top Languages Used**
 
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white) 
 
-**Backend & Frameworks**
-
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000?style=flat-square&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-
-**Frontend & Mobile**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Cloud & DevOps**
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-**Databases**
-
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+<!--STACK:end-->
 
 </div>
 
