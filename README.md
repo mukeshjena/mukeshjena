@@ -99,43 +99,7 @@
 
 <br/>
 
-<!-- ═══════════════════ ⏱️ WAKATIME ═══════════════════ -->
 
-<h2 align="center">⏱️ Coding Analytics</h2>
-
-<div align="center">
-
-<!--START_SECTION:waka-->
-*WakaTime stats will appear here once the workflow runs!*
-<!--END_SECTION:waka-->
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════ 🎵 SPOTIFY ═══════════════════ -->
-
-<h2 align="center">🎵 Now Playing</h2>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/spotify.svg" alt="Spotify Now Playing" width="400">
-</div>
-
-<br/>
-
-<!-- ═══════════════════ 📰 LATEST POSTS ═══════════════════ -->
-
-<h2 align="center">📰 Latest Articles</h2>
-
-<div align="center">
-
-<!-- BLOG-POST-LIST:START -->
-*Stay tuned for new articles!*
-<!-- BLOG-POST-LIST:END -->
-
-</div>
-
-<br/>
 
 <!-- ═══════════════════ ⚡ RECENT ACTIVITY ═══════════════════ -->
 
