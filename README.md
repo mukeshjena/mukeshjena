@@ -83,9 +83,9 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/mukeshjena/mukeshjena/raw/main/profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/mukeshjena/mukeshjena/raw/main/profile-3d-contrib/profile-season-animate.svg">
-    <img alt="3D Contribution Calendar" src="https://github.com/mukeshjena/mukeshjena/raw/main/profile-3d-contrib/profile-season-animate.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg">
+    <img alt="3D Contribution Calendar" src="./profile-3d-contrib/profile-season-animate.svg" width="100%">
   </picture>
 </div>
 
