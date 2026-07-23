@@ -101,22 +101,7 @@
 <h2 align="center">📊 GitHub Analytics</h2>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mukeshjena&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukeshjena&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" alt="Top Languages"/>
-</div>
-
-<div align="center">
   <img width="60%" src="https://streak-stats.demolab.com?user=mukeshjena&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=58A6FF" alt="GitHub Streak"/>
-</div>
-
-<br/>
-
-<!-- ═══════════════════ 🏆 TROPHIES ═══════════════════ -->
-
-<h2 align="center">🏆 GitHub Trophies</h2>
-
-<div align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=mukeshjena&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies"/>
 </div>
 
 <br/>
