@@ -62,22 +62,13 @@
 
 </div>
 
-<br/>
-
 <!-- ═══════════════════ 📊 GITHUB METRICS ═══════════════════ -->
-
-<h2 align="center">📊 Premium GitHub Analytics</h2>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/mukeshjena/mukeshjena/main/github-metrics.svg" alt="GitHub Metrics" width="70%">
 </div>
 
-<br/>
-
-
 <!-- ═══════════════════ 📈 ACTIVITY GRAPH ═══════════════════ -->
-
-<h2 align="center">📈 Contribution Graph</h2>
 
 <div align="center">
   <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
@@ -85,13 +76,7 @@
   </a>
 </div>
 
-<br/>
-
-
-
 <!-- ═══════════════════ ⚡ RECENT ACTIVITY ═══════════════════ -->
-
-<h2 align="center">⚡ Recent GitHub Activity</h2>
 
 <div align="center">
 
@@ -112,8 +97,6 @@
 <!--RECENT_ACTIVITY:end-->
 
 </div>
-
-<br/>
 
 <!-- ═══════════════════ 🌐 CONNECT ═══════════════════ -->
 
