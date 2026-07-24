@@ -83,9 +83,9 @@
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Fix 16 KB page size support: Update Gradle config and pac...` | Dec 10 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Performance optimizations: Fix double-loading, instant UR...` | Dec 5 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Performance optimizations: Fix double-loading, instant UR...` | Dec 2 |
+| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat: add privacy policy for bhagavad gita odia app` | Jul 24 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `update the privacy policy of vex browser` | Dec 15 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `change the url` | Dec 11 |
-| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `update the privacy policy of void browser` | Dec 11 |
 <!--RECENT_ACTIVITY:end-->
 
 </div>
