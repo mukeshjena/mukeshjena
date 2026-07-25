@@ -76,6 +76,7 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [subha-nature-cure](https://github.com/mukeshjena/subha-nature-cure) | `Initial commit without secrets` | Jul 25 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `fix: update contact email and remove firebase workflows` | Jul 24 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat: add privacy policy for bhagavad gita odia app` | Jul 24 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `update the privacy policy of vex browser` | Dec 15 |
@@ -85,7 +86,6 @@
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Update to Vex Fast Privacy Browser v2.0.1 (Version Code 11)` | Dec 15 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `chore: Update to Gradle 8.11.1, AGP 8.10.0, upgrade packa...` | Dec 11 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Fix 16 KB page size support: Update Gradle config and pac...` | Dec 10 |
-| 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Performance optimizations: Fix double-loading, instant UR...` | Dec 5 |
 <!--RECENT_ACTIVITY:end-->
 
 </div>
