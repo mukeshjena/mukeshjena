@@ -76,16 +76,16 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `fix: search widget label clipping and add shadow` | Aug 2 |
+| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `fix: add vercel.json rewrites to fix 404 on page refresh` | Aug 2 |
+| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `fix: replace broken gallery pool image URL` | Aug 2 |
+| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `fix: update domain, emails, images, and UI issues` | Aug 2 |
 | 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Initial commit` | Aug 2 |
 | 🔨 | [aurora-camera](https://github.com/mukeshjena/aurora-camera) | `Fix branch name in URLs to master` | Jul 31 |
 | 🔨 | [aurora-camera](https://github.com/mukeshjena/aurora-camera) | `Initial commit with models` | Jul 31 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `fix: update contact email and remove firebase workflows` | Jul 24 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat: add privacy policy for bhagavad gita odia app` | Jul 24 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `update the privacy policy of vex browser` | Dec 15 |
-| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `change the url` | Dec 11 |
-| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `update the privacy policy of void browser` | Dec 11 |
-| 🔨 | [bhagavad_gita_odia](https://github.com/mukeshjena/bhagavad_gita_odia) | `feat: initial production release of Bhagavad Gita Odia wi...` | Jul 15 |
-| 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Update to Vex Fast Privacy Browser v2.0.1 (Version Code 11)` | Dec 15 |
 <!--RECENT_ACTIVITY:end-->
 
 </div>
