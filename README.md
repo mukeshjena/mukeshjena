@@ -76,11 +76,11 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Fix UI overlap on small viewport heights` | Aug 2 |
+| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Add Cache-Control headers to vercel.json to prevent brows...` | Aug 2 |
+| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Add permissive CSP meta tag to index.html` | Aug 2 |
+| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Fix search widget clipping, replace broken images, update...` | Aug 2 |
 | 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `fix: search widget label clipping and add shadow` | Aug 2 |
-| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `fix: add vercel.json rewrites to fix 404 on page refresh` | Aug 2 |
-| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `fix: replace broken gallery pool image URL` | Aug 2 |
-| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `fix: update domain, emails, images, and UI issues` | Aug 2 |
-| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Initial commit` | Aug 2 |
 | 🔨 | [aurora-camera](https://github.com/mukeshjena/aurora-camera) | `Fix branch name in URLs to master` | Jul 31 |
 | 🔨 | [aurora-camera](https://github.com/mukeshjena/aurora-camera) | `Initial commit with models` | Jul 31 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `fix: update contact email and remove firebase workflows` | Jul 24 |
