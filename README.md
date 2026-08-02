@@ -76,6 +76,7 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Initial commit` | Aug 2 |
 | 🔨 | [aurora-camera](https://github.com/mukeshjena/aurora-camera) | `Fix branch name in URLs to master` | Jul 31 |
 | 🔨 | [aurora-camera](https://github.com/mukeshjena/aurora-camera) | `Initial commit with models` | Jul 31 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `fix: update contact email and remove firebase workflows` | Jul 24 |
@@ -85,7 +86,6 @@
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `update the privacy policy of void browser` | Dec 11 |
 | 🔨 | [bhagavad_gita_odia](https://github.com/mukeshjena/bhagavad_gita_odia) | `feat: initial production release of Bhagavad Gita Odia wi...` | Jul 15 |
 | 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `Update to Vex Fast Privacy Browser v2.0.1 (Version Code 11)` | Dec 15 |
-| 🔨 | [void-browser](https://github.com/mukeshjena/void-browser) | `chore: Update to Gradle 8.11.1, AGP 8.10.0, upgrade packa...` | Dec 11 |
 <!--RECENT_ACTIVITY:end-->
 
 </div>
