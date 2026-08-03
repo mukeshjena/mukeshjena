@@ -36,7 +36,7 @@
 
 <p align="center"><i>Full-stack developer shipping enterprise-grade backends and modern front-ends.<br/>
 <!--STATS:start-->
-<i>36 public repos • 3 total stars • 0 followers</i>
+<i>37 public repos • 3 total stars • 0 followers</i>
 <!--STATS:end-->
 </i></p>
 
