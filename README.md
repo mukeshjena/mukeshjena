@@ -76,16 +76,16 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(theme): elevate dual light and dark modes with luxur...` | Sep 2 |
+| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(ui): complete minimalist luxury redesign with shadow...` | Sep 2 |
+| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `chore: update portfolio contact email to info@mukeshjena.com` | Sep 2 |
+| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat: integrate custom email API for contact form with br...` | Sep 2 |
+| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `fix: update contact email and remove firebase workflows` | Jul 24 |
 | 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Fix UI overlap on small viewport heights` | Aug 2 |
 | 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Add Cache-Control headers to vercel.json to prevent brows...` | Aug 2 |
 | 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Add permissive CSP meta tag to index.html` | Aug 2 |
 | 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `Fix search widget clipping, replace broken images, update...` | Aug 2 |
 | 🔨 | [rehan-builders-developers](https://github.com/mukeshjena/rehan-builders-developers) | `fix: search widget label clipping and add shadow` | Aug 2 |
-| 🔨 | [aurora-camera](https://github.com/mukeshjena/aurora-camera) | `Fix branch name in URLs to master` | Jul 31 |
-| 🔨 | [aurora-camera](https://github.com/mukeshjena/aurora-camera) | `Initial commit with models` | Jul 31 |
-| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `fix: update contact email and remove firebase workflows` | Jul 24 |
-| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat: add privacy policy for bhagavad gita odia app` | Jul 24 |
-| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `update the privacy policy of vex browser` | Dec 15 |
 <!--RECENT_ACTIVITY:end-->
 
 </div>
