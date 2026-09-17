@@ -76,11 +76,11 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `ci: align atomic pipeline with DIIRA reference and stream...` | Sep 17 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `docs: mark Step 6 Completed in status ledger and memory log` | Sep 17 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-06): atomic ci/cd pipeline via github actions` | Sep 17 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `docs: add Rule 16 for ODINA and DIIRA canonical reference...` | Sep 17 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `docs: mark Step 5 Completed in status ledger and memory log` | Sep 17 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-10): idempotent seed script and cleanup script ...` | Sep 17 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-09): domain model entities, firestore schema do...` | Sep 17 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(governance): per-step planning, non-blocking CI/CD c...` | Sep 17 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-08): cloudinary folder structure and signed edg...` | Sep 17 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(skill): add edge-security-and-credentials-protection...` | Sep 17 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(theme): elevate dual light and dark modes with luxur...` | Sep 2 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(ui): complete minimalist luxury redesign with shadow...` | Sep 2 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `chore: update portfolio contact email to info@mukeshjena.com` | Sep 2 |
