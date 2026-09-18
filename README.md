@@ -76,11 +76,11 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `docs(ledger): update Step 22 to Completed in status ledge...` | Sep 18 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-22): admin dashboard shell — 3-dot contextual m...` | Sep 18 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `docs(ledger): update Step 21 to Completed in status ledge...` | Sep 18 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-21): multi-email admin authorization — whitelis...` | Sep 18 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `docs(ledger): update Step 20 to Completed in status ledge...` | Sep 18 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-30): blackhole hero fix, default light mode, ad...` | Sep 18 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-29): executive portfolio overhaul across 21 req...` | Sep 18 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `chore(release): complete step 28 and tag v1.0.0 release` | Sep 18 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(quality): enforce biome ci gate, refactor scene util...` | Sep 18 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(pwa): implement manifest.webmanifest, workbox runtim...` | Sep 18 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(theme): elevate dual light and dark modes with luxur...` | Sep 2 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(ui): complete minimalist luxury redesign with shadow...` | Sep 2 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `chore: update portfolio contact email to info@mukeshjena.com` | Sep 2 |
