@@ -76,11 +76,11 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `docs: update implementation plan status ledger and append...` | Sep 18 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-13): global providers (theme, auth, site-config...` | Sep 18 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-12): design tokens and persisted dark/light the...` | Sep 18 |
 | 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(media): seed official resume PDF to cloudinary docum...` | Sep 17 |
 | 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-11): clean architecture layers wired end-to-end...` | Sep 17 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(assets): copy local identity and resume images to pr...` | Sep 17 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-10): idempotent seed script and cleanup script ...` | Sep 17 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat(step-09): domain model entities, firestore schema do...` | Sep 17 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(theme): elevate dual light and dark modes with luxur...` | Sep 2 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(ui): complete minimalist luxury redesign with shadow...` | Sep 2 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `chore: update portfolio contact email to info@mukeshjena.com` | Sep 2 |
