@@ -76,11 +76,11 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `fix: smooth jitter-free mobile tab switching and scroll f...` | Oct 25 |
+| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `fix: synchronize mobile app bar with header options and f...` | Oct 25 |
 | 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat: align FinOps cost chart colors with site semantic t...` | Sep 18 |
 | 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat: remove architecture from nav, rename skills and edu...` | Sep 18 |
 | 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat: light mode contrast, hero toggle styling, untrack a...` | Sep 18 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `docs: record step 36 completion in status ledger and memo...` | Sep 18 |
-| 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat: exact 1:1 visual parity for FinOps cost curve conso...` | Sep 18 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(theme): elevate dual light and dark modes with luxur...` | Sep 2 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(ui): complete minimalist luxury redesign with shadow...` | Sep 2 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `chore: update portfolio contact email to info@mukeshjena.com` | Sep 2 |
