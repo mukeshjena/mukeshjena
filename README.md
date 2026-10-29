@@ -76,11 +76,11 @@
 
 | 🔹 | Repository | Commit | Date |
 |:--:|:-----------|:-------|:----:|
+| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat: add LinkedIn automation tool privacy policy page` | Oct 29 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `resume updated` | Oct 28 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(theme): elevate dual light and dark modes with luxur...` | Sep 2 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat(ui): complete minimalist luxury redesign with shadow...` | Sep 2 |
 | 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `chore: update portfolio contact email to info@mukeshjena.com` | Sep 2 |
-| 🔨 | [mukesh-portfolio](https://github.com/mukeshjena/mukesh-portfolio) | `feat: integrate custom email API for contact form with br...` | Sep 2 |
 | 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `fix: smooth jitter-free mobile tab switching and scroll f...` | Oct 25 |
 | 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `fix: synchronize mobile app bar with header options and f...` | Oct 25 |
 | 🔨 | [sachin-shakya-portfolio](https://github.com/mukeshjena/sachin-shakya-portfolio) | `feat: align FinOps cost chart colors with site semantic t...` | Sep 18 |
